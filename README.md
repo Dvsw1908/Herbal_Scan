@@ -1,7 +1,7 @@
 # 🌿 Herbal Scan
 
 ![Herbal Scan Banner](https://img.shields.io/badge/Status-Active-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20)
 ![Language](https://img.shields.io/badge/Language-Python%20%7C%20Dart-yellow)
 ![Framework](https://img.shields.io/badge/Framework-Flutter%20%7C%20Jupyter-cyan)
 
