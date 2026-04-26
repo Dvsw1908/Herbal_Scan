@@ -19,7 +19,7 @@ __pycache__/
 # Data and Models
 data/
 results/
-training/
+testsprite_tests/
 *.pt
 *.pth
 *.onnx
