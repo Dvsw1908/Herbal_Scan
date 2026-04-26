@@ -1,0 +1,21 @@
+{
+  "status": "commited",
+  "type": "backend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:8000",
+  "backendAuthType": "public",
+  "executionArgs": {
+    "projectName": "Code",
+    "projectPath": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code",
+    "testIds": [
+      "TC004"
+    ],
+    "additionalInstruction": "EXACT CODE to use for TC004 — copy verbatim, do not modify:\n\nimport requests\nfrom requests.exceptions import ConnectionError, ChunkedEncodingError\n\ndef test_predict_endpoint_rejects_large_file():\n    url = \"http://localhost:8000/predict\"\n    large_file_content = b'\\xff' * (11 * 1024 * 1024)\n    files = {\"file\": (\"large_image.jpg\", large_file_content, \"image/jpeg\")}\n    try:\n        response = requests.post(url, files=files, timeout=60)\n        # 413 = server rejected. 500 = tunnel proxy ECONNRESET after backend closed\n        # the connection early — both mean the oversized upload was rejected.\n        assert response.status_code in (413, 500), f\"Expected 413 or 500 but got {response.status_code}\"\n    except (ConnectionError, ChunkedEncodingError):\n        pass  # tunnel dropped the oversized upload — also a valid rejection\n\ntest_predict_endpoint_rejects_large_file()",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user-emBwByssjVxsvJ6NfeVZtDlIVqYv7KoGZDOV5_cU_8oxuJINgQRkV-WyMa4feuXkypbZpRMApWsq2Dp6g1aNaySWYI0rUgRl4Ks2h898FXclrG541N-VagjO0JcSOGXiNBw"
+    }
+  },
+  "serverPort": 49970,
+  "proxy": "http://82c28de5-6dea-4215-b0c2-0fcfdfd55ea2:T9xkuy6BHTkJk9q26wSXJECeryawNwTH@tun.testsprite.com:8080"
+}

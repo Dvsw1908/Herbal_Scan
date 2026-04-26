@@ -1,0 +1,37 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Agent/Claude stuff
+.agents/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and Models
+data/
+results/
+training/
+*.pt
+*.pth
+*.onnx
+*.h5
+# IDEs
+.vscode/
+.idea/
+
+# Flutter/Dart (mostly handled by inner gitignore, but just in case)
+build/
+.dart_tool/
+
+# Other
+*.log
+.DS_Store
