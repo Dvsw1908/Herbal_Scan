@@ -1,0 +1,144 @@
+{
+  "experiment": "nobg",
+  "split": "70:30",
+  "dataset": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code\\data\\final",
+  "num_classes": 8,
+  "class_names": [
+    "Daun Alpukat",
+    "Daun Belimbing Wuluh",
+    "Daun Jambu biji",
+    "Daun Leci",
+    "Daun Mangga",
+    "Daun Nangka",
+    "Daun Sirsak",
+    "Daun Srikaya"
+  ],
+  "epochs": 10,
+  "training_time_sec": 639.34,
+  "final_val_accuracy": 0.9974,
+  "classification_report": {
+    "Daun Alpukat": {
+      "precision": 1.0,
+      "recall": 0.9958333333333333,
+      "f1-score": 0.9979123173277662,
+      "support": 240.0
+    },
+    "Daun Belimbing Wuluh": {
+      "precision": 0.9876543209876543,
+      "recall": 1.0,
+      "f1-score": 0.9937888198757764,
+      "support": 240.0
+    },
+    "Daun Jambu biji": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "Daun Leci": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "Daun Mangga": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "Daun Nangka": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "Daun Sirsak": {
+      "precision": 0.9917355371900827,
+      "recall": 1.0,
+      "f1-score": 0.995850622406639,
+      "support": 240.0
+    },
+    "Daun Srikaya": {
+      "precision": 1.0,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9915966386554622,
+      "support": 240.0
+    },
+    "accuracy": 0.9973958333333334,
+    "macro avg": {
+      "precision": 0.9974237322722171,
+      "recall": 0.9973958333333334,
+      "f1-score": 0.9973935497832055,
+      "support": 1920.0
+    },
+    "weighted avg": {
+      "precision": 0.997423732272217,
+      "recall": 0.9973958333333334,
+      "f1-score": 0.9973935497832055,
+      "support": 1920.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7164,
+      "val_loss": 1.2791,
+      "val_acc": 0.9818
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1629,
+      "val_loss": 0.7859,
+      "val_acc": 0.9958
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8315,
+      "val_loss": 0.543,
+      "val_acc": 0.9943
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6181,
+      "val_loss": 0.3753,
+      "val_acc": 0.9969
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4925,
+      "val_loss": 0.296,
+      "val_acc": 0.9958
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4007,
+      "val_loss": 0.2206,
+      "val_acc": 0.9953
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.332,
+      "val_loss": 0.1752,
+      "val_acc": 0.9979
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2881,
+      "val_loss": 0.1449,
+      "val_acc": 0.9979
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2463,
+      "val_loss": 0.1201,
+      "val_acc": 0.9974
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2199,
+      "val_loss": 0.1093,
+      "val_acc": 0.9974
+    }
+  ]
+}

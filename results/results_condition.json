@@ -1,0 +1,92 @@
+{
+  "experiment": "kondisi_daun",
+  "dataset": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code\\data\\resized",
+  "split": "80:20",
+  "train_augmentation": [
+    "RandomRotate90(0/90/180/270)",
+    "GaussianBlur(k=3)",
+    "RandomHorizontalFlip"
+  ],
+  "epochs": 10,
+  "training_time_sec": 615.16,
+  "final_val_accuracy": 0.8219,
+  "classification_report": {
+    "sehat": {
+      "precision": 0.9012987012987013,
+      "recall": 0.7229166666666667,
+      "f1-score": 0.8023121387283237,
+      "support": 480.0
+    },
+    "rusak": {
+      "precision": 0.768695652173913,
+      "recall": 0.9208333333333333,
+      "f1-score": 0.837914691943128,
+      "support": 480.0
+    },
+    "accuracy": 0.821875,
+    "macro avg": {
+      "precision": 0.8349971767363071,
+      "recall": 0.8218749999999999,
+      "f1-score": 0.8201134153357259,
+      "support": 960.0
+    },
+    "weighted avg": {
+      "precision": 0.8349971767363071,
+      "recall": 0.821875,
+      "f1-score": 0.8201134153357259,
+      "support": 960.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "loss": 0.6581,
+      "val_acc": 0.7167
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6005,
+      "val_acc": 0.7135
+    },
+    {
+      "epoch": 3,
+      "loss": 0.5614,
+      "val_acc": 0.7406
+    },
+    {
+      "epoch": 4,
+      "loss": 0.5246,
+      "val_acc": 0.7885
+    },
+    {
+      "epoch": 5,
+      "loss": 0.4954,
+      "val_acc": 0.7542
+    },
+    {
+      "epoch": 6,
+      "loss": 0.4703,
+      "val_acc": 0.7719
+    },
+    {
+      "epoch": 7,
+      "loss": 0.4528,
+      "val_acc": 0.8052
+    },
+    {
+      "epoch": 8,
+      "loss": 0.4314,
+      "val_acc": 0.7948
+    },
+    {
+      "epoch": 9,
+      "loss": 0.4194,
+      "val_acc": 0.8156
+    },
+    {
+      "epoch": 10,
+      "loss": 0.4095,
+      "val_acc": 0.8219
+    }
+  ]
+}
