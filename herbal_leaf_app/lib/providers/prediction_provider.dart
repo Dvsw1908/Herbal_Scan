@@ -1,14 +1,16 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import '../models/prediction.dart';
+import '../repositories/prediction_repository.dart';
 import '../services/api_service.dart';
-import '../services/database_service.dart';
 
 enum PredictionState { idle, loading, success, error }
 
 class PredictionProvider extends ChangeNotifier {
-  final _api = ApiService();
-  final _db = DatabaseService.instance;
+  final PredictionRepository _repo;
+
+  PredictionProvider({PredictionRepository? repo})
+      : _repo = repo ?? PredictionRepository();
 
   PredictionState _state = PredictionState.idle;
   Prediction? _lastResult;
@@ -26,15 +28,13 @@ class PredictionProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      final result = await _api.predict(imageFile);
-      await _db.insertPrediction(result);
-      _lastResult = result;
+      _lastResult = await _repo.predict(imageFile);
       _state = PredictionState.success;
       await loadHistory();
     } on ApiException catch (e) {
       _errorMessage = e.message;
       _state = PredictionState.error;
-    } catch (e) {
+    } catch (_) {
       _errorMessage =
           'Tidak dapat terhubung ke server. Pastikan backend berjalan.';
       _state = PredictionState.error;
@@ -43,23 +43,21 @@ class PredictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> init() async {
-    await loadHistory();
-  }
+  Future<void> init() => loadHistory();
 
   Future<void> loadHistory() async {
-    _history = await _db.getAllPredictions();
+    _history = await _repo.getHistory();
     notifyListeners();
   }
 
   Future<void> deletePrediction(int id) async {
-    await _db.deletePrediction(id);
+    await _repo.deletePrediction(id);
     _history = _history.where((p) => p.id != id).toList();
     notifyListeners();
   }
 
   Future<void> clearHistory() async {
-    await _db.clearAll();
+    await _repo.clearHistory();
     _history = [];
     notifyListeners();
   }

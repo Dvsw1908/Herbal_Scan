@@ -40,10 +40,16 @@ def _load_model() -> nn.Module:
 _model = _load_model()
 
 
-def predict_image(image: Image.Image) -> tuple[str, float]:
+def predict_image(image: Image.Image) -> tuple[str, float, list[dict]]:
     tensor = _transform(image).unsqueeze(0).to(DEVICE)
     with torch.no_grad():
         logits = _model(tensor)
-        probs = torch.softmax(logits, dim=1)
-        conf, idx = torch.max(probs, dim=1)
-    return CLASS_NAMES[idx.item()], float(conf.item())
+        probs = torch.softmax(logits, dim=1)[0]
+
+    k = min(3, len(CLASS_NAMES))
+    top_vals, top_idxs = torch.topk(probs, k=k)
+    top3 = [
+        {"class": CLASS_NAMES[i.item()], "confidence": float(v.item())}
+        for v, i in zip(top_vals, top_idxs)
+    ]
+    return top3[0]["class"], top3[0]["confidence"], top3

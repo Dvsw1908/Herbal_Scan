@@ -18,12 +18,8 @@ __pycache__/
 
 # Data and Models
 data/
-results/
 testsprite_tests/
-*.pt
-*.pth
-*.onnx
-*.h5
+
 # IDEs
 .vscode/
 .idea/
@@ -35,3 +31,5 @@ build/
 # Other
 *.log
 .DS_Store
+
+skills-lock.json

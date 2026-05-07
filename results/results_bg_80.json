@@ -14,19 +14,21 @@
     "Daun Srikaya"
   ],
   "epochs": 10,
-  "training_time_sec": 697.75,
-  "final_val_accuracy": 0.9953,
+  "training_time_sec": 1325.67,
+  "best_epoch": 1,
+  "best_val_accuracy": 1.0,
+  "final_val_accuracy": 1.0,
   "classification_report": {
     "Daun Alpukat": {
       "precision": 1.0,
-      "recall": 0.96875,
-      "f1-score": 0.9841269841269841,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Belimbing Wuluh": {
-      "precision": 0.9937888198757764,
+      "precision": 1.0,
       "recall": 1.0,
-      "f1-score": 0.9968847352024922,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Jambu biji": {
@@ -37,8 +39,8 @@
     },
     "Daun Leci": {
       "precision": 1.0,
-      "recall": 0.99375,
-      "f1-score": 0.9968652037617555,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Mangga": {
@@ -48,15 +50,15 @@
       "support": 160.0
     },
     "Daun Nangka": {
-      "precision": 0.9937888198757764,
+      "precision": 1.0,
       "recall": 1.0,
-      "f1-score": 0.9968847352024922,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Sirsak": {
-      "precision": 0.975609756097561,
+      "precision": 1.0,
       "recall": 1.0,
-      "f1-score": 0.9876543209876543,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Srikaya": {
@@ -65,80 +67,90 @@
       "f1-score": 1.0,
       "support": 160.0
     },
-    "accuracy": 0.9953125,
+    "accuracy": 1.0,
     "macro avg": {
-      "precision": 0.9953984244811392,
-      "recall": 0.9953125,
-      "f1-score": 0.9953019974101723,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 1280.0
     },
     "weighted avg": {
-      "precision": 0.9953984244811391,
-      "recall": 0.9953125,
-      "f1-score": 0.9953019974101723,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 1280.0
     }
   },
   "training_history": [
     {
       "epoch": 1,
-      "train_loss": 1.6741,
-      "val_loss": 1.2707,
-      "val_acc": 0.9805
+      "train_loss": 1.3132,
+      "val_loss": 0.2651,
+      "train_acc": 0.8592,
+      "val_acc": 1.0
     },
     {
       "epoch": 2,
-      "train_loss": 1.101,
-      "val_loss": 0.8271,
-      "val_acc": 0.9906
+      "train_loss": 0.2478,
+      "val_loss": 0.0321,
+      "train_acc": 0.9943,
+      "val_acc": 1.0
     },
     {
       "epoch": 3,
-      "train_loss": 0.7807,
-      "val_loss": 0.562,
-      "val_acc": 0.9883
+      "train_loss": 0.0762,
+      "val_loss": 0.0137,
+      "train_acc": 0.9986,
+      "val_acc": 1.0
     },
     {
       "epoch": 4,
-      "train_loss": 0.5846,
-      "val_loss": 0.4257,
-      "val_acc": 0.9844
+      "train_loss": 0.0378,
+      "val_loss": 0.0097,
+      "train_acc": 0.999,
+      "val_acc": 1.0
     },
     {
       "epoch": 5,
-      "train_loss": 0.4587,
-      "val_loss": 0.3401,
-      "val_acc": 0.9891
+      "train_loss": 0.0214,
+      "val_loss": 0.0047,
+      "train_acc": 0.9998,
+      "val_acc": 1.0
     },
     {
       "epoch": 6,
-      "train_loss": 0.3699,
-      "val_loss": 0.255,
-      "val_acc": 0.9906
+      "train_loss": 0.0139,
+      "val_loss": 0.0027,
+      "train_acc": 0.9988,
+      "val_acc": 1.0
     },
     {
       "epoch": 7,
-      "train_loss": 0.3133,
-      "val_loss": 0.2164,
-      "val_acc": 0.9922
+      "train_loss": 0.0092,
+      "val_loss": 0.0019,
+      "train_acc": 1.0,
+      "val_acc": 1.0
     },
     {
       "epoch": 8,
-      "train_loss": 0.2636,
-      "val_loss": 0.1769,
-      "val_acc": 0.993
+      "train_loss": 0.0078,
+      "val_loss": 0.0013,
+      "train_acc": 0.9994,
+      "val_acc": 1.0
     },
     {
       "epoch": 9,
-      "train_loss": 0.226,
-      "val_loss": 0.1491,
-      "val_acc": 0.9961
+      "train_loss": 0.0053,
+      "val_loss": 0.001,
+      "train_acc": 0.9998,
+      "val_acc": 1.0
     },
     {
       "epoch": 10,
-      "train_loss": 0.2012,
-      "val_loss": 0.1306,
-      "val_acc": 0.9953
+      "train_loss": 0.0039,
+      "val_loss": 0.0007,
+      "train_acc": 0.9998,
+      "val_acc": 1.0
     }
   ]
 }

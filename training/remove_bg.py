@@ -50,3 +50,4 @@ elapsed_time = end_time - start_time
 print("🎉 Remove background selesai")
 print(f"🖼️ Total gambar diproses: {total_images}")
 print(f"⏱️ Waktu proses: {format_time(elapsed_time)}")
+

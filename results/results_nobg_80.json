@@ -14,8 +14,10 @@
     "Daun Srikaya"
   ],
   "epochs": 10,
-  "training_time_sec": 658.26,
-  "final_val_accuracy": 0.9992,
+  "training_time_sec": 1432.97,
+  "best_epoch": 1,
+  "best_val_accuracy": 1.0,
+  "final_val_accuracy": 1.0,
   "classification_report": {
     "Daun Alpukat": {
       "precision": 1.0,
@@ -24,9 +26,9 @@
       "support": 160.0
     },
     "Daun Belimbing Wuluh": {
-      "precision": 0.9937888198757764,
+      "precision": 1.0,
       "recall": 1.0,
-      "f1-score": 0.9968847352024922,
+      "f1-score": 1.0,
       "support": 160.0
     },
     "Daun Jambu biji": {
@@ -61,84 +63,94 @@
     },
     "Daun Srikaya": {
       "precision": 1.0,
-      "recall": 0.99375,
-      "f1-score": 0.9968652037617555,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 160.0
     },
-    "accuracy": 0.99921875,
+    "accuracy": 1.0,
     "macro avg": {
-      "precision": 0.9992236024844721,
-      "recall": 0.99921875,
-      "f1-score": 0.999218742370531,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 1280.0
     },
     "weighted avg": {
-      "precision": 0.9992236024844721,
-      "recall": 0.99921875,
-      "f1-score": 0.999218742370531,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
       "support": 1280.0
     }
   },
   "training_history": [
     {
       "epoch": 1,
-      "train_loss": 1.6745,
-      "val_loss": 1.1824,
-      "val_acc": 0.9953
+      "train_loss": 1.311,
+      "val_loss": 0.308,
+      "train_acc": 0.882,
+      "val_acc": 1.0
     },
     {
       "epoch": 2,
-      "train_loss": 1.0823,
-      "val_loss": 0.6995,
-      "val_acc": 0.9977
+      "train_loss": 0.2596,
+      "val_loss": 0.0404,
+      "train_acc": 0.9904,
+      "val_acc": 1.0
     },
     {
       "epoch": 3,
-      "train_loss": 0.7497,
-      "val_loss": 0.4471,
-      "val_acc": 0.9969
+      "train_loss": 0.0793,
+      "val_loss": 0.0156,
+      "train_acc": 0.9965,
+      "val_acc": 1.0
     },
     {
       "epoch": 4,
-      "train_loss": 0.5605,
-      "val_loss": 0.3209,
-      "val_acc": 0.9977
+      "train_loss": 0.0383,
+      "val_loss": 0.0074,
+      "train_acc": 0.999,
+      "val_acc": 1.0
     },
     {
       "epoch": 5,
-      "train_loss": 0.4291,
-      "val_loss": 0.2316,
-      "val_acc": 0.9977
+      "train_loss": 0.0217,
+      "val_loss": 0.0056,
+      "train_acc": 0.9988,
+      "val_acc": 1.0
     },
     {
       "epoch": 6,
-      "train_loss": 0.3486,
-      "val_loss": 0.179,
-      "val_acc": 0.9984
+      "train_loss": 0.0166,
+      "val_loss": 0.0031,
+      "train_acc": 0.999,
+      "val_acc": 1.0
     },
     {
       "epoch": 7,
-      "train_loss": 0.2894,
-      "val_loss": 0.1424,
-      "val_acc": 0.9992
+      "train_loss": 0.0084,
+      "val_loss": 0.002,
+      "train_acc": 1.0,
+      "val_acc": 1.0
     },
     {
       "epoch": 8,
-      "train_loss": 0.2462,
-      "val_loss": 0.1243,
-      "val_acc": 0.9969
+      "train_loss": 0.008,
+      "val_loss": 0.0013,
+      "train_acc": 0.9994,
+      "val_acc": 1.0
     },
     {
       "epoch": 9,
-      "train_loss": 0.2149,
-      "val_loss": 0.1059,
-      "val_acc": 0.9961
+      "train_loss": 0.0048,
+      "val_loss": 0.0011,
+      "train_acc": 1.0,
+      "val_acc": 1.0
     },
     {
       "epoch": 10,
-      "train_loss": 0.182,
-      "val_loss": 0.0782,
-      "val_acc": 0.9992
+      "train_loss": 0.0043,
+      "val_loss": 0.0008,
+      "train_acc": 0.9998,
+      "val_acc": 1.0
     }
   ]
 }

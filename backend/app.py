@@ -69,7 +69,7 @@ async def predict(request: Request, file: UploadFile = File(...)):
             raise
         raise HTTPException(status_code=400, detail="File bukan gambar yang valid.")
 
-    predicted_class, confidence_score = predict_image(image)
+    predicted_class, confidence_score, top3 = predict_image(image)
 
     record_id = save_prediction(
         image_path=file.filename or "unknown",
@@ -81,6 +81,10 @@ async def predict(request: Request, file: UploadFile = File(...)):
         "id": record_id,
         "predicted_class": predicted_class,
         "confidence_score": round(confidence_score, 4),
+        "top3": [
+            {"class": r["class"], "confidence": round(r["confidence"], 4)}
+            for r in top3
+        ],
     }
 
 

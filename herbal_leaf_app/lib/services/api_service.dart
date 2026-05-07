@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
+import 'package:http_parser/http_parser.dart';
 import 'dart:convert';
 import '../models/prediction.dart';
 
@@ -15,8 +16,19 @@ class ApiService {
     final uri = Uri.parse('$baseUrl/predict');
     final request = http.MultipartRequest('POST', uri);
 
+    final ext = imageFile.path.split('.').last.toLowerCase();
+    final mimeType = switch (ext) {
+      'png' => MediaType('image', 'png'),
+      'webp' => MediaType('image', 'webp'),
+      _ => MediaType('image', 'jpeg'),
+    };
+
     request.files.add(
-      await http.MultipartFile.fromPath('file', imageFile.path),
+      await http.MultipartFile.fromPath(
+        'file',
+        imageFile.path,
+        contentType: mimeType,
+      ),
     );
 
     final streamedResponse = await request.send().timeout(_timeout);
@@ -24,12 +36,16 @@ class ApiService {
 
     if (response.statusCode == 200) {
       final json = jsonDecode(response.body) as Map<String, dynamic>;
+      final rawTop3 = json['top3'] as List<dynamic>?;
       return Prediction(
         id: json['id'] as int?,
         imagePath: imageFile.path,
         predictedClass: json['predicted_class'] as String,
         confidenceScore: (json['confidence_score'] as num).toDouble(),
         timestamp: DateTime.now(),
+        top3: rawTop3
+            ?.map((e) => Top3Entry.fromJson(e as Map<String, dynamic>))
+            .toList(),
       );
     }
 

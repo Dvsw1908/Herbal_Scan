@@ -1,9 +1,24 @@
+class Top3Entry {
+  final String className;
+  final double confidence;
+
+  const Top3Entry({required this.className, required this.confidence});
+
+  factory Top3Entry.fromJson(Map<String, dynamic> json) => Top3Entry(
+        className: json['class'] as String,
+        confidence: (json['confidence'] as num).toDouble(),
+      );
+
+  String get percent => '${(confidence * 100).toStringAsFixed(1)}%';
+}
+
 class Prediction {
   final int? id;
   final String imagePath;
   final String predictedClass;
   final double confidenceScore;
   final DateTime timestamp;
+  final List<Top3Entry>? top3;
 
   const Prediction({
     this.id,
@@ -11,13 +26,15 @@ class Prediction {
     required this.predictedClass,
     required this.confidenceScore,
     required this.timestamp,
+    this.top3,
   });
 
   bool get isRusak => predictedClass.toLowerCase().contains('rusak');
 
-  String get speciesName {
-    return predictedClass.replaceAll(' Rusak', '').trim();
-  }
+  bool get isUnrecognized => confidenceScore < 0.70;
+
+  String get speciesName =>
+      predictedClass.replaceAll(' Rusak', '').trim();
 
   String get confidencePercent =>
       '${(confidenceScore * 100).toStringAsFixed(1)}%';
@@ -33,6 +50,11 @@ class Prediction {
       timestamp: json['timestamp'] is String
           ? DateTime.parse(json['timestamp'] as String)
           : json['timestamp'] as DateTime,
+      top3: json['top3'] != null
+          ? (json['top3'] as List<dynamic>)
+              .map((e) => Top3Entry.fromJson(e as Map<String, dynamic>))
+              .toList()
+          : null,
     );
   }
 
