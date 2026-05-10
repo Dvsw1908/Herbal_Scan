@@ -10,3 +10,5 @@ Pillow
 fastapi
 uvicorn[standard]
 python-multipart
+ipykernel
+jupyter

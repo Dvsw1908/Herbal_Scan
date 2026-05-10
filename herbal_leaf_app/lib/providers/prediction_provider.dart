@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import '../models/prediction.dart';
 import '../repositories/prediction_repository.dart';
-import '../services/api_service.dart';
 
 enum PredictionState { idle, loading, success, error }
 
@@ -31,12 +30,8 @@ class PredictionProvider extends ChangeNotifier {
       _lastResult = await _repo.predict(imageFile);
       _state = PredictionState.success;
       await loadHistory();
-    } on ApiException catch (e) {
-      _errorMessage = e.message;
-      _state = PredictionState.error;
-    } catch (_) {
-      _errorMessage =
-          'Tidak dapat terhubung ke server. Pastikan backend berjalan.';
+    } catch (e) {
+      _errorMessage = 'Gagal menganalisis gambar. Coba lagi.';
       _state = PredictionState.error;
     }
 

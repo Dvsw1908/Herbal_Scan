@@ -5,19 +5,43 @@ from PIL import Image
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "model" / "shufflenet_nobg_70.pth"
+MODEL_PATH = BASE_DIR / "model" / "shufflenet_exp2_70.pth"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 CLASS_NAMES = [
-    "Daun Alpukat",
-    "Daun Belimbing Wuluh",
-    "Daun Jambu biji",
-    "Daun Leci",
-    "Daun Mangga",
-    "Daun Nangka",
-    "Daun Sirsak",
-    "Daun Srikaya",
+    "Daun Alpukat BG",
+    "Daun Alpukat NoBG",
+    "Daun Alpukat Rusak BG",
+    "Daun Alpukat Rusak NoBG",
+    "Daun Belimbing Wuluh BG",
+    "Daun Belimbing Wuluh NoBG",
+    "Daun Belimbing Wuluh Rusak BG",
+    "Daun Belimbing Wuluh Rusak NoBG",
+    "Daun Jambu Biji Rusak BG",
+    "Daun Jambu Biji Rusak NoBG",
+    "Daun Jambu biji BG",
+    "Daun Jambu biji NoBG",
+    "Daun Leci BG",
+    "Daun Leci NoBG",
+    "Daun Leci Rusak BG",
+    "Daun Leci Rusak NoBG",
+    "Daun Nangka BG",
+    "Daun Nangka NoBG",
+    "Daun Nangka Rusak BG",
+    "Daun Nangka Rusak NoBG",
+    "Daun Salam BG",
+    "Daun Salam NoBG",
+    "Daun Salam Rusak BG",
+    "Daun Salam Rusak NoBG",
+    "Daun Sirsak BG",
+    "Daun Sirsak NoBG",
+    "Daun Sirsak Rusak BG",
+    "Daun Sirsak Rusak NoBG",
+    "Daun Srikaya BG",
+    "Daun Srikaya NoBG",
+    "Daun Srikaya Rusak BG",
+    "Daun Srikaya Rusak NoBG",
 ]
 
 _transform = transforms.Compose([

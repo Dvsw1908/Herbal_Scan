@@ -1,0 +1,472 @@
+{
+  "experiment": "Eksperimen 2 — Semua Kondisi (BG + NoBG + Rusak)",
+  "tag": "exp2",
+  "split": "80:20",
+  "dataset_nobg": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code\\data\\final",
+  "dataset_bg": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code\\data\\final bg",
+  "include_rusak": true,
+  "num_classes": 32,
+  "class_names": [
+    "Daun Alpukat BG",
+    "Daun Alpukat NoBG",
+    "Daun Alpukat Rusak BG",
+    "Daun Alpukat Rusak NoBG",
+    "Daun Belimbing Wuluh BG",
+    "Daun Belimbing Wuluh NoBG",
+    "Daun Belimbing Wuluh Rusak BG",
+    "Daun Belimbing Wuluh Rusak NoBG",
+    "Daun Jambu Biji Rusak BG",
+    "Daun Jambu Biji Rusak NoBG",
+    "Daun Jambu biji BG",
+    "Daun Jambu biji NoBG",
+    "Daun Leci BG",
+    "Daun Leci NoBG",
+    "Daun Leci Rusak BG",
+    "Daun Leci Rusak NoBG",
+    "Daun Nangka BG",
+    "Daun Nangka NoBG",
+    "Daun Nangka Rusak BG",
+    "Daun Nangka Rusak NoBG",
+    "Daun Salam BG",
+    "Daun Salam NoBG",
+    "Daun Salam Rusak BG",
+    "Daun Salam Rusak NoBG",
+    "Daun Sirsak BG",
+    "Daun Sirsak NoBG",
+    "Daun Sirsak Rusak BG",
+    "Daun Sirsak Rusak NoBG",
+    "Daun Srikaya BG",
+    "Daun Srikaya NoBG",
+    "Daun Srikaya Rusak BG",
+    "Daun Srikaya Rusak NoBG"
+  ],
+  "epochs": 30,
+  "training_time_sec": 12440.45,
+  "accuracy": 0.9989,
+  "precision_weighted": 0.9989,
+  "recall_weighted": 0.9989,
+  "f1_weighted": 0.9989,
+  "best_epoch": 29,
+  "best_val_accuracy": 0.9996,
+  "final_train_accuracy": 0.9978,
+  "final_val_accuracy": 0.9989,
+  "classification_report": {
+    "Daun Alpukat BG": {
+      "precision": 1.0,
+      "recall": 0.9884615384615385,
+      "f1-score": 0.9941972920696325,
+      "support": 260.0
+    },
+    "Daun Alpukat NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Alpukat Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Alpukat Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Belimbing Wuluh BG": {
+      "precision": 1.0,
+      "recall": 0.9961538461538462,
+      "f1-score": 0.9980732177263969,
+      "support": 260.0
+    },
+    "Daun Belimbing Wuluh NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Belimbing Wuluh Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Belimbing Wuluh Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Jambu Biji Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Jambu Biji Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Jambu biji BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Jambu biji NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Leci BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Leci NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Leci Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Leci Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Nangka BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Nangka NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Nangka Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Nangka Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Salam BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Salam NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Salam Rusak BG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Salam Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Sirsak BG": {
+      "precision": 0.9774436090225563,
+      "recall": 1.0,
+      "f1-score": 0.9885931558935361,
+      "support": 260.0
+    },
+    "Daun Sirsak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Sirsak Rusak BG": {
+      "precision": 1.0,
+      "recall": 0.9961538461538462,
+      "f1-score": 0.9980732177263969,
+      "support": 260.0
+    },
+    "Daun Sirsak Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Srikaya BG": {
+      "precision": 0.9923076923076923,
+      "recall": 0.9923076923076923,
+      "f1-score": 0.9923076923076923,
+      "support": 260.0
+    },
+    "Daun Srikaya NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "Daun Srikaya Rusak BG": {
+      "precision": 0.9961389961389961,
+      "recall": 0.9923076923076923,
+      "f1-score": 0.9942196531791907,
+      "support": 260.0
+    },
+    "Daun Srikaya Rusak NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 260.0
+    },
+    "accuracy": 0.9989182692307692,
+    "macro avg": {
+      "precision": 0.9989340717959139,
+      "recall": 0.9989182692307692,
+      "f1-score": 0.9989207571532139,
+      "support": 8320.0
+    },
+    "weighted avg": {
+      "precision": 0.9989340717959139,
+      "recall": 0.9989182692307692,
+      "f1-score": 0.9989207571532139,
+      "support": 8320.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.0293,
+      "train_acc": 0.8201,
+      "val_loss": 1.3552,
+      "val_acc": 0.9076
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9078,
+      "train_acc": 0.9571,
+      "val_loss": 0.8046,
+      "val_acc": 0.957
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5356,
+      "train_acc": 0.9747,
+      "val_loss": 0.5473,
+      "val_acc": 0.9605
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3586,
+      "train_acc": 0.9813,
+      "val_loss": 0.3592,
+      "val_acc": 0.9797
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2621,
+      "train_acc": 0.9852,
+      "val_loss": 0.2784,
+      "val_acc": 0.9859
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2,
+      "train_acc": 0.988,
+      "val_loss": 0.245,
+      "val_acc": 0.984
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1579,
+      "train_acc": 0.9902,
+      "val_loss": 0.1957,
+      "val_acc": 0.9904
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.1307,
+      "train_acc": 0.9909,
+      "val_loss": 0.1502,
+      "val_acc": 0.9911
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.1095,
+      "train_acc": 0.9926,
+      "val_loss": 0.1301,
+      "val_acc": 0.9947
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0945,
+      "train_acc": 0.9928,
+      "val_loss": 0.1069,
+      "val_acc": 0.9956
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.0841,
+      "train_acc": 0.9935,
+      "val_loss": 0.1191,
+      "val_acc": 0.993
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0737,
+      "train_acc": 0.9941,
+      "val_loss": 0.1021,
+      "val_acc": 0.9925
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0671,
+      "train_acc": 0.995,
+      "val_loss": 0.0792,
+      "val_acc": 0.996
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0604,
+      "train_acc": 0.9953,
+      "val_loss": 0.0714,
+      "val_acc": 0.997
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0538,
+      "train_acc": 0.9959,
+      "val_loss": 0.0578,
+      "val_acc": 0.9968
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.0499,
+      "train_acc": 0.9961,
+      "val_loss": 0.0662,
+      "val_acc": 0.9964
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.0458,
+      "train_acc": 0.9966,
+      "val_loss": 0.0472,
+      "val_acc": 0.998
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.042,
+      "train_acc": 0.9968,
+      "val_loss": 0.0413,
+      "val_acc": 0.9982
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.0398,
+      "train_acc": 0.9973,
+      "val_loss": 0.053,
+      "val_acc": 0.9963
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0369,
+      "train_acc": 0.9969,
+      "val_loss": 0.0408,
+      "val_acc": 0.9983
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.0352,
+      "train_acc": 0.9968,
+      "val_loss": 0.0325,
+      "val_acc": 0.9982
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.0334,
+      "train_acc": 0.997,
+      "val_loss": 0.0359,
+      "val_acc": 0.9978
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.0317,
+      "train_acc": 0.9972,
+      "val_loss": 0.0368,
+      "val_acc": 0.9981
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.0308,
+      "train_acc": 0.9966,
+      "val_loss": 0.0351,
+      "val_acc": 0.9978
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.0282,
+      "train_acc": 0.9975,
+      "val_loss": 0.0285,
+      "val_acc": 0.999
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.0264,
+      "train_acc": 0.9978,
+      "val_loss": 0.0251,
+      "val_acc": 0.9986
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.0256,
+      "train_acc": 0.9977,
+      "val_loss": 0.0299,
+      "val_acc": 0.9987
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.0251,
+      "train_acc": 0.9976,
+      "val_loss": 0.0191,
+      "val_acc": 0.9994
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.0236,
+      "train_acc": 0.9978,
+      "val_loss": 0.0188,
+      "val_acc": 0.9996
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.023,
+      "train_acc": 0.9978,
+      "val_loss": 0.0201,
+      "val_acc": 0.9989
+    }
+  ]
+}

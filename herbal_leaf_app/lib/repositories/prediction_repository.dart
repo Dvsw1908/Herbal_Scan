@@ -1,18 +1,16 @@
 import 'dart:io';
 import '../models/prediction.dart';
-import '../services/api_service.dart';
+import '../services/model_service.dart';
 import '../services/database_service.dart';
 
 class PredictionRepository {
-  final ApiService _api;
   final DatabaseService _db;
 
-  PredictionRepository({ApiService? api, DatabaseService? db})
-      : _api = api ?? ApiService(),
-        _db = db ?? DatabaseService.instance;
+  PredictionRepository({DatabaseService? db})
+      : _db = db ?? DatabaseService.instance;
 
   Future<Prediction> predict(File imageFile) async {
-    final result = await _api.predict(imageFile);
+    final result = await ModelService.instance.predict(imageFile);
     final id = await _db.insertPrediction(result);
     return Prediction(
       id: id,

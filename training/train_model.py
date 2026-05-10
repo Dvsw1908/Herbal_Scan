@@ -3,7 +3,6 @@ Pipeline Pelatihan ShuffleNetV2 — Klasifikasi Daun Herbal
 
 Eksperimen 1 : Sehat saja  — gabungan BG + NoBG, kelas Rusak dikecualikan
 Eksperimen 2 : Semua kelas — gabungan BG + NoBG, termasuk Rusak
-               (confusion matrix menampilkan label "Rusak BG" / "Rusak NoBG")
 
 Split: 80:20 dan 70:30 (Stratified Shuffle Split)
 """
@@ -17,6 +16,7 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import seaborn as sns
 import torchvision.transforms.functional as TF
 from pathlib import Path
 from PIL import Image
@@ -24,7 +24,9 @@ from torchvision import transforms, models
 from torchvision.datasets import ImageFolder
 from torch.utils.data import Dataset, DataLoader, Subset
 from sklearn.model_selection import StratifiedShuffleSplit
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import (classification_report, confusion_matrix,
+                             accuracy_score, precision_score,
+                             recall_score, f1_score)
 
 # ======================
 # CONFIG
@@ -81,7 +83,6 @@ class CombinedTaggedDataset(Dataset):
         nobg_tagged = {c: f"{c} NoBG" for c in nobg_base.classes}
         bg_tagged   = {c: f"{c} BG"   for c in bg_base.classes}
 
-        # Kumpulkan semua nama kelas yang akan dipakai
         all_class_names: list[str] = []
         for orig, tagged in nobg_tagged.items():
             if include_rusak or "Rusak" not in orig:
@@ -92,10 +93,9 @@ class CombinedTaggedDataset(Dataset):
                 if tagged not in all_class_names:
                     all_class_names.append(tagged)
 
-        self.classes       = sorted(all_class_names)
-        self.class_to_idx  = {c: i for i, c in enumerate(self.classes)}
+        self.classes      = sorted(all_class_names)
+        self.class_to_idx = {c: i for i, c in enumerate(self.classes)}
 
-        # Kumpulkan path + label
         self.samples: list[tuple[str, int]] = []
         for img_path, orig_label in nobg_base.samples:
             tagged = nobg_tagged[nobg_base.classes[orig_label]]
@@ -111,13 +111,10 @@ class CombinedTaggedDataset(Dataset):
 
     def __getitem__(self, idx: int):
         img_path, label = self.samples[idx]
-        img = Image.open(img_path).convert("RGB")
-        return img, label
+        return Image.open(img_path).convert("RGB"), label
 
 
 class TransformWrapper(Dataset):
-    """Bungkus Subset dengan transform tertentu (train atau val)."""
-
     def __init__(self, subset: Subset, transform):
         self.subset    = subset
         self.transform = transform
@@ -131,44 +128,76 @@ class TransformWrapper(Dataset):
 
 
 # ======================
-# CONFUSION MATRIX PLOT
+# HELPERS CONFUSION MATRIX
 # ======================
-def plot_confusion_matrix(cm: np.ndarray, class_names: list[str],
-                          title: str, save_path: Path) -> None:
-    n = len(class_names)
-    fig_size = max(12, n * 0.55)
-    fig, ax = plt.subplots(figsize=(fig_size, fig_size * 0.85))
+def _species_name(class_name: str) -> str:
+    return (class_name
+            .replace(" Rusak NoBG", "").replace(" Rusak BG", "")
+            .replace(" NoBG", "").replace(" BG", "")
+            .replace(" Rusak", "").strip())
 
-    im = ax.imshow(cm, interpolation="nearest", cmap="Blues")
-    plt.colorbar(im, ax=ax)
 
-    ax.set_xticks(range(n))
-    ax.set_yticks(range(n))
-    ax.set_xticklabels(class_names, rotation=90, fontsize=7)
-    ax.set_yticklabels(class_names, fontsize=7)
-    ax.set_xlabel("Predicted", fontsize=10)
-    ax.set_ylabel("True", fontsize=10)
-    ax.set_title(title, fontsize=11)
+def _get_group(class_name: str) -> str:
+    is_rusak = "Rusak" in class_name
+    is_nobg  = class_name.endswith("NoBG")
+    if   not is_rusak and not is_nobg: return "Sehat BG"
+    elif not is_rusak and     is_nobg: return "Sehat NoBG"
+    elif     is_rusak and not is_nobg: return "Rusak BG"
+    else:                              return "Rusak NoBG"
 
-    thresh = cm.max() / 2.0
-    for i in range(n):
-        for j in range(n):
-            ax.text(j, i, str(cm[i, j]), ha="center", va="center",
-                    fontsize=6, color="white" if cm[i, j] > thresh else "black")
 
+
+def plot_split_cm(y_true, y_pred, class_names, exp_tag, train_pct, exp_label, label_str):
+    """Plot confusion matrix terpisah per grup (Sehat BG / Sehat NoBG / Rusak BG / Rusak NoBG)."""
+    group_of   = {cn: _get_group(cn) for cn in class_names}
+    groups     = sorted(set(group_of.values()))
+    n_groups   = len(groups)
+    n_cols_fig = 2
+    n_rows_fig = (n_groups + 1) // 2
+
+    fig, axes = plt.subplots(n_rows_fig, n_cols_fig,
+                             figsize=(n_cols_fig * 9, n_rows_fig * 7.5))
+    axes = axes.flatten()
+
+    for ax_idx, group in enumerate(groups):
+        grp_classes  = [cn for cn in class_names if group_of[cn] == group]
+        grp_idx_map  = {class_names.index(cn): i for i, cn in enumerate(grp_classes)}
+        species_lbls = [_species_name(cn) for cn in grp_classes]
+        n            = len(grp_classes)
+
+        mask     = [i for i, t in enumerate(y_true) if t in grp_idx_map]
+        sub_true = [grp_idx_map[y_true[i]] for i in mask]
+        sub_pred = [grp_idx_map.get(y_pred[i], n) for i in mask]
+
+        has_other = any(p == n for p in sub_pred)
+        n_pred    = n + 1 if has_other else n
+        col_lbls  = species_lbls + (["[Lainnya]"] if has_other else [])
+
+        cm  = confusion_matrix(sub_true, sub_pred, labels=list(range(n_pred)))
+        acc = sum(t == p for t, p in zip(sub_true, sub_pred)) / len(sub_true) if sub_true else 0
+
+        sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                    xticklabels=col_lbls, yticklabels=species_lbls,
+                    ax=axes[ax_idx], annot_kws={"size": 8})
+        axes[ax_idx].set_title(f"{group}  |  Acc: {acc:.2%}", fontsize=11, fontweight="bold")
+        axes[ax_idx].set_xlabel("Predicted", fontsize=9)
+        axes[ax_idx].set_ylabel("True",      fontsize=9)
+        axes[ax_idx].tick_params(axis="x", rotation=45, labelsize=8)
+        axes[ax_idx].tick_params(axis="y", rotation=0,  labelsize=8)
+
+    for ax_idx in range(n_groups, len(axes)):
+        axes[ax_idx].set_visible(False)
+
+    fig.suptitle(f"Confusion Matrix per Grup — {exp_label}\nSplit {label_str}", fontsize=13)
     plt.tight_layout()
-    plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    plt.savefig(RESULT_DIR / f"cm_split_{exp_tag}_{train_pct}.png", dpi=150, bbox_inches="tight")
     plt.close()
 
 
 # ======================
 # FUNGSI TRAINING SATU EKSPERIMEN
 # ======================
-def run_experiment(
-    exp_tag: str,
-    exp_label: str,
-    include_rusak: bool,
-) -> None:
+def run_experiment(exp_tag: str, exp_label: str, include_rusak: bool) -> None:
     print(f"\n{'='*60}")
     print(f"EKSPERIMEN: {exp_label}")
 
@@ -177,9 +206,9 @@ def run_experiment(
     num_classes  = len(class_names)
     all_labels   = np.array([lbl for _, lbl in full_dataset.samples])
 
-    print(f"  Total    : {len(full_dataset)} gambar")
-    print(f"  Kelas    : {num_classes} — {class_names}")
-    print(f"  Device   : {DEVICE}")
+    print(f"  Total  : {len(full_dataset)} gambar")
+    print(f"  Kelas  : {num_classes}")
+    print(f"  Device : {DEVICE}")
 
     for split_ratio in SPLIT_RATIOS:
         test_ratio = round(1.0 - split_ratio, 10)
@@ -220,9 +249,7 @@ def run_experiment(
 
         for epoch in range(EPOCHS):
             model.train()
-            running_loss  = 0.0
-            train_correct = 0
-            train_total   = 0
+            running_loss, train_correct, train_total = 0.0, 0, 0
             for images, labels in train_loader:
                 images, labels = images.to(DEVICE), labels.to(DEVICE)
                 optimizer.zero_grad()
@@ -244,7 +271,7 @@ def run_experiment(
                     images, labels = images.to(DEVICE), labels.to(DEVICE)
                     outputs  = model(images)
                     val_loss += criterion(outputs, labels).item()
-                    _, preds = torch.max(outputs, 1)
+                    _, preds  = torch.max(outputs, 1)
                     correct  += (preds == labels).sum().item()
                     total    += labels.size(0)
 
@@ -272,9 +299,18 @@ def run_experiment(
                 y_true.extend(labels.numpy())
                 y_pred.extend(preds.cpu().numpy())
 
+        acc   = accuracy_score(y_true, y_pred)
+        prec  = precision_score(y_true, y_pred, average="weighted", zero_division=0)
+        rec   = recall_score(y_true, y_pred, average="weighted", zero_division=0)
+        f1    = f1_score(y_true, y_pred, average="weighted", zero_division=0)
         report = classification_report(y_true, y_pred, target_names=class_names, output_dict=True)
-        print("\n  Classification Report:")
-        print(classification_report(y_true, y_pred, target_names=class_names))
+
+        print(f"\n  {'Metric':<12} {'Score':>8}")
+        print(f"  {'-'*22}")
+        print(f"  {'Accuracy':<12} {acc:>8.4f}")
+        print(f"  {'Precision':<12} {prec:>8.4f}")
+        print(f"  {'Recall':<12} {rec:>8.4f}")
+        print(f"  {'F1-Score':<12} {f1:>8.4f}")
 
         # --- PLOT LOSS & AKURASI ---
         ep           = [0] + [h["epoch"]      for h in history]
@@ -283,36 +319,35 @@ def run_experiment(
         train_accs   = [0] + [h["train_acc"] for h in history]
         val_accs     = [0] + [h["val_acc"]   for h in history]
 
+        best = max(history, key=lambda h: h["val_acc"])
+
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
-        ax1.plot(ep, train_losses, "o-", label="Train Loss")
-        ax1.plot(ep, val_losses,   "s-", label="Val Loss")
-        ax1.set_title(f"Loss — {exp_label} Split {label_str}")
+        ax1.plot(ep, train_losses, "r-o", markersize=4, label="Train Loss")
+        ax1.plot(ep, val_losses,   "g--s", markersize=4, label="Val Loss")
+        ax1.plot(best["epoch"], best["val_loss"], "bo", markersize=8,
+                 label=f"Best Epoch {best['epoch']}")
+        ax1.set_title(f"Loss — {exp_label}\nSplit {label_str}")
         ax1.set_xlabel("Epoch"); ax1.set_ylabel("Loss"); ax1.legend(); ax1.grid(True)
 
-        ax2.plot(ep, train_accs, "o-", color="blue",  label="Train Accuracy")
-        ax2.plot(ep, val_accs,   "s-", color="green", label="Val Accuracy")
-        ax2.set_title(f"Akurasi — {exp_label} Split {label_str}")
-        ax2.set_xlabel("Epoch"); ax2.set_ylabel("Accuracy"); ax2.set_ylim(0, 1)
+        ax2.plot(ep, train_accs, "r-o",  markersize=4, label="Train Accuracy")
+        ax2.plot(ep, val_accs,   "g--s", markersize=4, label="Val Accuracy")
+        ax2.plot(best["epoch"], best["val_acc"], "bo", markersize=8,
+                 label=f"Best Epoch {best['epoch']} ({best['val_acc']:.2%})")
+        ax2.set_title(f"Akurasi — {exp_label}\nSplit {label_str}")
+        ax2.set_xlabel("Epoch"); ax2.set_ylabel("Accuracy")
+        ax2.set_ylim(0, 1.05)
         ax2.legend(); ax2.grid(True)
 
         plt.tight_layout()
         plot_path = RESULT_DIR / f"plot_{exp_tag}_{train_pct}.png"
         plt.savefig(plot_path, dpi=150, bbox_inches="tight")
         plt.close()
-        print(f"  Plot: {plot_path}")
+        print(f"  Plot : {plot_path}")
 
-        # --- CONFUSION MATRIX ---
-        cm = confusion_matrix(y_true, y_pred)
-        cm_path = RESULT_DIR / f"cm_{exp_tag}_{train_pct}.png"
-        final_train_acc = history[-1]["train_acc"]
-        final_val_acc   = round(val_accs[-1], 4)
-        plot_confusion_matrix(
-            cm, class_names,
-            title=(f"Confusion Matrix — {exp_label} | Split {label_str}\n"
-                   f"Train Acc: {final_train_acc:.2%}  |  Val Acc: {final_val_acc:.2%}"),
-            save_path=cm_path,
-        )
-        print(f"  CM  : {cm_path}")
+        # --- CONFUSION MATRIX (terpisah per grup) ---
+        plot_split_cm(y_true, y_pred, class_names,
+                      exp_tag, train_pct, exp_label, label_str)
+        print(f"  CM Split: {RESULT_DIR / f'cm_split_{exp_tag}_{train_pct}.png'}")
 
         # --- SAVE MODEL & JSON ---
         model_path = MODEL_DIR / f"shufflenet_{exp_tag}_{train_pct}.pth"
@@ -331,11 +366,18 @@ def run_experiment(
             "class_names":           class_names,
             "epochs":                EPOCHS,
             "training_time_sec":     round(elapsed, 2),
-            "final_val_accuracy":    round(val_accs[-1], 4),
+            "accuracy":              round(acc, 4),
+            "precision_weighted":    round(prec, 4),
+            "recall_weighted":       round(rec, 4),
+            "f1_weighted":           round(f1, 4),
+            "best_epoch":            best["epoch"],
+            "best_val_accuracy":     best["val_acc"],
+            "final_train_accuracy":  history[-1]["train_acc"],
+            "final_val_accuracy":    history[-1]["val_acc"],
             "classification_report": report,
             "training_history":      history,
-        }, indent=2, ensure_ascii=False))
-        print(f"  JSON: {json_path}")
+        }, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"  JSON : {json_path}")
 
 
 # ======================
@@ -348,7 +390,7 @@ print(f"BG      : {BG_DIR}")
 run_experiment(
     exp_tag="exp1",
     exp_label="Eksperimen 1 — Sehat (BG + NoBG)",
-    include_rusak=False,
+    include_rusak=True,
 )
 
 run_experiment(

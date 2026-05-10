@@ -33,8 +33,10 @@ class Prediction {
 
   bool get isUnrecognized => confidenceScore < 0.70;
 
-  String get speciesName =>
-      predictedClass.replaceAll(' Rusak', '').trim();
+  String get speciesName => predictedClass
+      .replaceAll(RegExp(r'\s+Rusak', caseSensitive: false), '')
+      .replaceAll(RegExp(r'\s+(NoBG|BG)\s*$', caseSensitive: false), '')
+      .trim();
 
   String get confidencePercent =>
       '${(confidenceScore * 100).toStringAsFixed(1)}%';

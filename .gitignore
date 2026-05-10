@@ -1,9 +1,8 @@
 # Environments
-venv/
 .venv/
 env/
 .env
-
+venv/
 # Agent/Claude stuff
 .agents/
 .claude/
@@ -33,3 +32,4 @@ build/
 .DS_Store
 
 skills-lock.json
+claude.md
