@@ -73,9 +73,17 @@ class _HomePageState extends State<HomePage>
       return;
     }
 
+    final actualClass = await showActualClassDialog(context);
+    if (!context.mounted) return;
+
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (_) => BatchResultPage(results: results)),
+      MaterialPageRoute(
+        builder: (_) => BatchResultPage(
+          results: results,
+          actualClass: actualClass ?? '',
+        ),
+      ),
     );
   }
 

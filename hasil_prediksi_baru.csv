@@ -1,0 +1,1601 @@
+No,Nama File,Kelas Daun,Prediksi Kelas Daun,Confidence Score
+1,testing_001.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,85.46%
+2,testing_002.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,87.21%
+3,testing_003.jpg,Daun Alpukat,Daun Leci NoBG,91.96%
+4,testing_004.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,72.34%
+5,testing_005.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,83.35%
+6,testing_006.jpg,Daun Alpukat,Daun Leci NoBG,57.01%
+7,testing_007.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,95.31%
+8,testing_008.jpg,Daun Alpukat,Daun Leci NoBG,95.96%
+9,testing_009.jpg,Daun Alpukat,Daun Leci NoBG,82.17%
+10,testing_010.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,57.20%
+11,testing_011.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,83.63%
+12,testing_012.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,73.09%
+13,testing_013.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,89.50%
+14,testing_014.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,82.21%
+15,testing_015.jpg,Daun Alpukat,Daun Leci NoBG,98.86%
+16,testing_016.jpg,Daun Alpukat,Daun Leci NoBG,53.16%
+17,testing_017.jpg,Daun Alpukat,Daun Leci NoBG,51.72%
+18,testing_018.jpg,Daun Alpukat,Daun Leci NoBG,64.54%
+19,testing_019.jpg,Daun Alpukat,Daun Leci NoBG,98.86%
+20,testing_020.jpg,Daun Alpukat,Daun Leci NoBG,55.62%
+21,testing_021.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,91.13%
+22,testing_022.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,91.12%
+23,testing_023.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,76.60%
+24,testing_024.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,63.56%
+25,testing_025.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,76.34%
+26,testing_026.jpg,Daun Alpukat,Daun Leci NoBG,77.91%
+27,testing_027.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,77.12%
+28,testing_028.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,80.10%
+29,testing_029.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,79.10%
+30,testing_030.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,98.84%
+31,testing_031.jpg,Daun Alpukat,Daun Leci NoBG,97.25%
+32,testing_032.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,94.78%
+33,testing_033.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,81.49%
+34,testing_034.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.54%
+35,testing_035.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,54.91%
+36,testing_036.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,94.78%
+37,testing_037.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,98.84%
+38,testing_038.jpg,Daun Alpukat,Daun Leci NoBG,97.31%
+39,testing_039.jpg,Daun Alpukat,Daun Leci NoBG,81.80%
+40,testing_040.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,50.37%
+41,testing_041.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,66.12%
+42,testing_042.jpg,Daun Alpukat,Daun Leci NoBG,48.40%
+43,testing_043.jpg,Daun Alpukat,Daun Leci Rusak BG,47.32%
+44,testing_044.jpg,Daun Alpukat,Daun Leci Rusak BG,61.30%
+45,testing_045.jpg,Daun Alpukat,Daun Leci Rusak BG,73.01%
+46,testing_046.jpg,Daun Alpukat,Daun Leci Rusak BG,44.02%
+47,testing_047.jpg,Daun Alpukat,Daun Leci Rusak BG,68.18%
+48,testing_048.jpg,Daun Alpukat,Daun Leci NoBG,52.32%
+49,testing_049.jpg,Daun Alpukat,Daun Leci NoBG,71.47%
+50,testing_050.jpg,Daun Alpukat,Daun Leci NoBG,48.19%
+51,testing_051.jpg,Daun Alpukat,Daun Leci Rusak BG,92.36%
+52,testing_052.jpg,Daun Alpukat,Daun Leci NoBG,81.37%
+53,testing_053.jpg,Daun Alpukat,Daun Leci NoBG,66.49%
+54,testing_054.jpg,Daun Alpukat,Daun Leci Rusak BG,96.96%
+55,testing_055.jpg,Daun Alpukat,Daun Leci Rusak BG,71.39%
+56,testing_056.jpg,Daun Alpukat,Daun Leci Rusak BG,90.64%
+57,testing_057.jpg,Daun Alpukat,Daun Leci NoBG,96.23%
+58,testing_058.jpg,Daun Alpukat,Daun Leci NoBG,53.91%
+59,testing_059.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,58.35%
+60,testing_060.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,96.84%
+61,testing_061.jpg,Daun Alpukat,Daun Leci NoBG,50.77%
+62,testing_062.jpg,Daun Alpukat,Daun Leci NoBG,69.50%
+63,testing_063.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,98.62%
+64,testing_064.jpg,Daun Alpukat,Daun Leci NoBG,79.85%
+65,testing_065.jpg,Daun Alpukat,Daun Leci Rusak BG,37.01%
+66,testing_066.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,65.33%
+67,testing_067.jpg,Daun Alpukat,Daun Leci NoBG,87.97%
+68,testing_068.jpg,Daun Alpukat,Daun Leci NoBG,61.00%
+69,testing_069.png,Daun Alpukat,Daun Alpukat Rusak NoBG,67.14%
+70,testing_070.png,Daun Alpukat,Daun Alpukat Rusak NoBG,97.90%
+71,testing_071.png,Daun Alpukat,Daun Alpukat Rusak NoBG,92.40%
+72,testing_072.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.15%
+73,testing_073.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.52%
+74,testing_074.png,Daun Alpukat,Daun Alpukat Rusak NoBG,95.50%
+75,testing_075.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.54%
+76,testing_076.png,Daun Alpukat,Daun Alpukat Rusak NoBG,94.46%
+77,testing_077.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.75%
+78,testing_078.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.08%
+79,testing_079.png,Daun Alpukat,Daun Alpukat Rusak NoBG,94.17%
+80,testing_080.png,Daun Alpukat,Daun Alpukat Rusak NoBG,97.51%
+81,testing_081.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.02%
+82,testing_082.png,Daun Alpukat,Daun Alpukat Rusak NoBG,98.66%
+83,testing_083.png,Daun Alpukat,Daun Alpukat Rusak NoBG,96.90%
+84,testing_084.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.49%
+85,testing_085.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.69%
+86,testing_086.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.70%
+87,testing_087.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,98.22%
+88,testing_088.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,93.43%
+89,testing_089.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.93%
+90,testing_090.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,95.70%
+91,testing_091.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.90%
+92,testing_092.jpg,Daun Alpukat,Daun Leci Rusak BG,50.77%
+93,testing_093.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.61%
+94,testing_094.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,96.44%
+95,testing_095.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,99.13%
+96,testing_096.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,98.85%
+97,testing_097.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,92.19%
+98,testing_098.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,96.56%
+99,testing_099.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,91.82%
+100,testing_100.jpg,Daun Alpukat,Daun Alpukat Rusak NoBG,95.05%
+101,testing_001.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,86.10%
+102,testing_002.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,61.14%
+103,testing_003.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,89.81%
+104,testing_004.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.37%
+105,testing_005.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,60.22%
+106,testing_006.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,95.42%
+107,testing_007.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,88.52%
+108,testing_008.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,50.75%
+109,testing_009.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,77.57%
+110,testing_010.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,78.16%
+111,testing_011.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,77.79%
+112,testing_012.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,74.75%
+113,testing_013.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,83.43%
+114,testing_014.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,68.31%
+115,testing_015.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,85.90%
+116,testing_016.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,92.29%
+117,testing_017.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,76.81%
+118,testing_018.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.55%
+119,testing_019.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,70.39%
+120,testing_020.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.51%
+121,testing_021.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,82.60%
+122,testing_022.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,57.76%
+123,testing_023.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,91.07%
+124,testing_024.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,73.84%
+125,testing_025.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,80.73%
+126,testing_026.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,84.21%
+127,testing_027.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,94.40%
+128,testing_028.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,80.82%
+129,testing_029.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,82.99%
+130,testing_030.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,72.72%
+131,testing_031.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,72.50%
+132,testing_032.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,51.57%
+133,testing_033.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,78.75%
+134,testing_034.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,55.21%
+135,testing_035.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,85.41%
+136,testing_036.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,89.16%
+137,testing_037.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,88.88%
+138,testing_038.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,96.72%
+139,testing_039.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,77.46%
+140,testing_040.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,87.44%
+141,testing_041.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,55.02%
+142,testing_042.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,97.86%
+143,testing_043.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,75.46%
+144,testing_044.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,95.94%
+145,testing_045.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,85.52%
+146,testing_046.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,73.96%
+147,testing_047.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,99.69%
+148,testing_048.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,97.43%
+149,testing_049.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,97.18%
+150,testing_050.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,81.05%
+151,testing_051.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,93.63%
+152,testing_052.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,97.27%
+153,testing_053.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,89.69%
+154,testing_054.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.86%
+155,testing_055.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,96.63%
+156,testing_056.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,67.32%
+157,testing_057.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,90.32%
+158,testing_058.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,93.45%
+159,testing_059.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,97.06%
+160,testing_060.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,83.59%
+161,testing_061.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,64.37%
+162,testing_062.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.86%
+163,testing_063.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,98.62%
+164,testing_064.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,65.08%
+165,testing_065.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,94.22%
+166,testing_066.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,86.31%
+167,testing_067.jpg,Daun Alpukat Rusak,Daun Leci Rusak BG,96.18%
+168,testing_068.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,81.90%
+169,testing_069.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,92.60%
+170,testing_070.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,91.90%
+171,testing_071.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,95.26%
+172,testing_072.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,79.61%
+173,testing_073.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,73.29%
+174,testing_074.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,85.89%
+175,testing_075.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,69.94%
+176,testing_076.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,74.14%
+177,testing_077.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,62.71%
+178,testing_078.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,56.13%
+179,testing_079.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,93.81%
+180,testing_080.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,90.42%
+181,testing_081.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,85.51%
+182,testing_082.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,93.32%
+183,testing_083.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,97.55%
+184,testing_084.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,93.60%
+185,testing_085.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,77.41%
+186,testing_086.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,81.81%
+187,testing_087.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,93.79%
+188,testing_088.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,94.78%
+189,testing_089.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,87.91%
+190,testing_090.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,79.37%
+191,testing_091.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,68.20%
+192,testing_092.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,80.95%
+193,testing_093.png,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,69.10%
+194,testing_094.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,95.26%
+195,testing_095.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,94.61%
+196,testing_096.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,89.78%
+197,testing_097.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,96.94%
+198,testing_098.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,98.65%
+199,testing_099.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,99.45%
+200,testing_100.jpg,Daun Alpukat Rusak,Daun Alpukat Rusak NoBG,91.33%
+201,testing_001.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.95%
+202,testing_002.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.82%
+203,testing_003.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.74%
+204,testing_004.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,97.73%
+205,testing_005.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.85%
+206,testing_006.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.57%
+207,testing_007.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.62%
+208,testing_008.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.13%
+209,testing_009.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.84%
+210,testing_010.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.03%
+211,testing_011.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.25%
+212,testing_012.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.99%
+213,testing_013.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.90%
+214,testing_014.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.71%
+215,testing_015.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.97%
+216,testing_016.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.78%
+217,testing_017.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.35%
+218,testing_018.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+219,testing_019.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.60%
+220,testing_020.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.62%
+221,testing_021.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.92%
+222,testing_022.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,96.46%
+223,testing_023.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.41%
+224,testing_024.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.84%
+225,testing_025.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,55.97%
+226,testing_026.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.30%
+227,testing_027.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.87%
+228,testing_028.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,95.18%
+229,testing_029.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,95.21%
+230,testing_030.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.19%
+231,testing_031.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.45%
+232,testing_032.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.89%
+233,testing_033.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,96.59%
+234,testing_034.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,73.30%
+235,testing_035.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.94%
+236,testing_036.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.20%
+237,testing_037.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.81%
+238,testing_038.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.95%
+239,testing_039.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,68.53%
+240,testing_040.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.59%
+241,testing_041.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.32%
+242,testing_042.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.10%
+243,testing_043.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.96%
+244,testing_044.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.96%
+245,testing_045.jpg,Daun Belimbing Wuluh,Daun Leci Rusak BG,96.59%
+246,testing_046.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.80%
+247,testing_047.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,96.68%
+248,testing_048.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,92.16%
+249,testing_049.jpg,Daun Belimbing Wuluh,Daun Leci Rusak BG,69.28%
+250,testing_050.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.98%
+251,testing_051.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.02%
+252,testing_052.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.01%
+253,testing_053.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.76%
+254,testing_054.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.46%
+255,testing_055.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,60.37%
+256,testing_056.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,96.38%
+257,testing_057.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.76%
+258,testing_058.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,51.33%
+259,testing_059.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.96%
+260,testing_060.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,96.79%
+261,testing_061.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,63.31%
+262,testing_062.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,86.92%
+263,testing_063.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,82.33%
+264,testing_064.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.21%
+265,testing_065.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.67%
+266,testing_066.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,58.61%
+267,testing_067.jpg,Daun Belimbing Wuluh,Daun Alpukat Rusak NoBG,52.87%
+268,testing_068.png,Daun Belimbing Wuluh,Daun Leci NoBG,98.53%
+269,testing_069.png,Daun Belimbing Wuluh,Daun Leci NoBG,98.06%
+270,testing_070.png,Daun Belimbing Wuluh,Daun Leci NoBG,97.82%
+271,testing_071.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+272,testing_072.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+273,testing_073.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+274,testing_074.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+275,testing_075.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.95%
+276,testing_076.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.89%
+277,testing_077.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.96%
+278,testing_078.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.91%
+279,testing_079.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.89%
+280,testing_080.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.90%
+281,testing_081.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.92%
+282,testing_082.png,Daun Belimbing Wuluh,Daun Leci NoBG,99.61%
+283,testing_083.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.54%
+284,testing_084.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.91%
+285,testing_085.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.80%
+286,testing_086.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.86%
+287,testing_087.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.50%
+288,testing_088.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.99%
+289,testing_089.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.61%
+290,testing_090.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.69%
+291,testing_091.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,98.58%
+292,testing_092.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.69%
+293,testing_093.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,96.07%
+294,testing_094.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,87.74%
+295,testing_095.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,61.95%
+296,testing_096.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,94.40%
+297,testing_097.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,93.15%
+298,testing_098.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.96%
+299,testing_099.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.98%
+300,testing_100.jpg,Daun Belimbing Wuluh,Daun Leci NoBG,99.99%
+301,testing_001.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,96.95%
+302,testing_002.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,81.48%
+303,testing_003.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,83.99%
+304,testing_004.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,76.48%
+305,testing_005.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,98.03%
+306,testing_006.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,90.00%
+307,testing_007.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,85.24%
+308,testing_008.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,72.55%
+309,testing_009.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,94.36%
+310,testing_010.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,98.31%
+311,testing_011.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,84.76%
+312,testing_012.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,79.19%
+313,testing_013.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,96.15%
+314,testing_014.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,94.04%
+315,testing_015.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,83.81%
+316,testing_016.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,83.51%
+317,testing_017.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,94.09%
+318,testing_018.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,98.86%
+319,testing_019.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,85.04%
+320,testing_020.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,98.72%
+321,testing_021.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,53.03%
+322,testing_022.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,91.40%
+323,testing_023.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,95.47%
+324,testing_024.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,88.91%
+325,testing_025.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,59.60%
+326,testing_026.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,72.08%
+327,testing_027.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,67.37%
+328,testing_028.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,84.45%
+329,testing_029.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,64.74%
+330,testing_030.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,91.46%
+331,testing_031.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,79.48%
+332,testing_032.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,81.39%
+333,testing_033.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,90.56%
+334,testing_034.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,64.67%
+335,testing_035.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,57.71%
+336,testing_036.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,80.58%
+337,testing_037.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,82.89%
+338,testing_038.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,66.50%
+339,testing_039.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,48.27%
+340,testing_040.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,86.32%
+341,testing_041.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,97.53%
+342,testing_042.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,81.14%
+343,testing_043.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,95.61%
+344,testing_044.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,94.58%
+345,testing_045.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,83.32%
+346,testing_046.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,68.86%
+347,testing_047.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,96.96%
+348,testing_048.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,68.93%
+349,testing_049.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,82.19%
+350,testing_050.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,39.45%
+351,testing_051.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,89.70%
+352,testing_052.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,87.99%
+353,testing_053.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,47.96%
+354,testing_054.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,77.92%
+355,testing_055.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,95.26%
+356,testing_056.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,77.58%
+357,testing_057.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,97.71%
+358,testing_058.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,58.48%
+359,testing_059.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,97.59%
+360,testing_060.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,96.50%
+361,testing_061.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,64.58%
+362,testing_062.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,97.08%
+363,testing_063.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,74.79%
+364,testing_064.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,62.62%
+365,testing_065.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,64.82%
+366,testing_066.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,97.72%
+367,testing_067.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,70.20%
+368,testing_068.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,54.99%
+369,testing_069.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,65.44%
+370,testing_070.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,76.91%
+371,testing_071.png,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,57.62%
+372,testing_072.png,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,53.32%
+373,testing_073.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,78.17%
+374,testing_074.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,65.81%
+375,testing_075.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,53.84%
+376,testing_076.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,66.36%
+377,testing_077.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,85.88%
+378,testing_078.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,85.98%
+379,testing_079.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,75.40%
+380,testing_080.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,76.51%
+381,testing_081.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,85.64%
+382,testing_082.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,67.98%
+383,testing_083.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,75.11%
+384,testing_084.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,98.85%
+385,testing_085.png,Daun Belimbing Wuluh Rusak,Daun Alpukat Rusak NoBG,78.42%
+386,testing_086.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,94.64%
+387,testing_087.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,95.50%
+388,testing_088.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,92.41%
+389,testing_089.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,94.29%
+390,testing_090.png,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,92.07%
+391,testing_091.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,93.54%
+392,testing_092.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,50.67%
+393,testing_093.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,66.52%
+394,testing_094.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,59.78%
+395,testing_095.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,51.76%
+396,testing_096.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,57.13%
+397,testing_097.jpg,Daun Belimbing Wuluh Rusak,Daun Leci Rusak BG,56.58%
+398,testing_098.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,86.40%
+399,testing_099.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,87.59%
+400,testing_100.jpg,Daun Belimbing Wuluh Rusak,Daun Leci NoBG,96.19%
+401,testing_001.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,91.93%
+402,testing_002.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,91.11%
+403,testing_003.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,97.63%
+404,testing_004.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,97.23%
+405,testing_005.jpg,Daun Jambu biji,Daun Leci Rusak BG,70.23%
+406,testing_006.jpg,Daun Jambu biji,Daun Leci NoBG,76.92%
+407,testing_007.jpg,Daun Jambu biji,Daun Leci NoBG,80.33%
+408,testing_008.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,51.38%
+409,testing_009.jpg,Daun Jambu biji,Daun Leci NoBG,82.01%
+410,testing_010.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,97.23%
+411,testing_011.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,95.16%
+412,testing_012.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,88.02%
+413,testing_013.jpg,Daun Jambu biji,Daun Leci Rusak BG,79.41%
+414,testing_014.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,57.88%
+415,testing_015.jpg,Daun Jambu biji,Daun Leci NoBG,79.46%
+416,testing_016.jpg,Daun Jambu biji,Daun Leci Rusak BG,76.79%
+417,testing_017.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,82.12%
+418,testing_018.jpg,Daun Jambu biji,Daun Leci Rusak BG,57.15%
+419,testing_019.jpg,Daun Jambu biji,Daun Leci Rusak BG,81.98%
+420,testing_020.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,99.13%
+421,testing_021.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,85.11%
+422,testing_022.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,79.94%
+423,testing_023.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,97.55%
+424,testing_024.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,89.71%
+425,testing_025.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,55.99%
+426,testing_026.jpg,Daun Jambu biji,Daun Leci Rusak BG,98.69%
+427,testing_027.jpg,Daun Jambu biji,Daun Leci Rusak BG,64.27%
+428,testing_028.jpg,Daun Jambu biji,Daun Leci Rusak BG,83.56%
+429,testing_029.jpg,Daun Jambu biji,Daun Leci Rusak BG,69.77%
+430,testing_030.jpg,Daun Jambu biji,Daun Leci Rusak BG,93.48%
+431,testing_031.jpg,Daun Jambu biji,Daun Leci Rusak BG,91.06%
+432,testing_032.jpg,Daun Jambu biji,Daun Leci Rusak BG,98.73%
+433,testing_033.jpg,Daun Jambu biji,Daun Leci Rusak BG,99.77%
+434,testing_034.jpg,Daun Jambu biji,Daun Leci Rusak BG,72.87%
+435,testing_035.jpg,Daun Jambu biji,Daun Leci Rusak BG,73.11%
+436,testing_036.jpg,Daun Jambu biji,Daun Leci Rusak BG,96.73%
+437,testing_037.jpg,Daun Jambu biji,Daun Leci Rusak BG,82.67%
+438,testing_038.jpg,Daun Jambu biji,Daun Leci Rusak BG,96.15%
+439,testing_039.jpg,Daun Jambu biji,Daun Leci Rusak BG,87.57%
+440,testing_040.jpg,Daun Jambu biji,Daun Leci Rusak BG,75.57%
+441,testing_041.jpg,Daun Jambu biji,Daun Leci Rusak BG,94.55%
+442,testing_042.jpg,Daun Jambu biji,Daun Leci Rusak BG,97.25%
+443,testing_043.jpg,Daun Jambu biji,Daun Leci Rusak BG,71.34%
+444,testing_044.jpg,Daun Jambu biji,Daun Leci Rusak BG,98.98%
+445,testing_045.jpg,Daun Jambu biji,Daun Leci Rusak BG,98.57%
+446,testing_046.jpg,Daun Jambu biji,Daun Leci Rusak BG,99.40%
+447,testing_047.jpg,Daun Jambu biji,Daun Leci Rusak BG,93.87%
+448,testing_048.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,66.68%
+449,testing_049.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,76.72%
+450,testing_050.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,76.52%
+451,testing_051.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,82.00%
+452,testing_052.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,98.50%
+453,testing_053.jpg,Daun Jambu biji,Daun Leci Rusak BG,57.27%
+454,testing_054.jpg,Daun Jambu biji,Daun Leci NoBG,42.50%
+455,testing_055.jpg,Daun Jambu biji,Daun Leci NoBG,60.80%
+456,testing_056.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,94.21%
+457,testing_057.jpg,Daun Jambu biji,Daun Leci NoBG,60.91%
+458,testing_058.jpg,Daun Jambu biji,Daun Leci Rusak BG,63.04%
+459,testing_059.jpg,Daun Jambu biji,Daun Leci Rusak BG,73.62%
+460,testing_060.jpg,Daun Jambu biji,Daun Leci NoBG,45.52%
+461,testing_061.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,87.04%
+462,testing_062.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,69.98%
+463,testing_063.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,95.89%
+464,testing_064.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,90.16%
+465,testing_065.jpg,Daun Jambu biji,Daun Alpukat Rusak NoBG,90.22%
+466,testing_066.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,92.32%
+467,testing_067.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,85.30%
+468,testing_068.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,98.24%
+469,testing_069.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,93.57%
+470,testing_070.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,65.44%
+471,testing_071.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,92.78%
+472,testing_072.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,61.12%
+473,testing_073.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,93.53%
+474,testing_074.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,94.22%
+475,testing_075.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,84.45%
+476,testing_076.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,47.06%
+477,testing_077.png,Daun Jambu biji,Daun Leci Rusak BG,42.95%
+478,testing_078.png,Daun Jambu biji,Daun Leci NoBG,60.72%
+479,testing_079.png,Daun Jambu biji,Daun Leci Rusak BG,83.10%
+480,testing_080.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,41.92%
+481,testing_081.png,Daun Jambu biji,Daun Leci NoBG,50.75%
+482,testing_082.png,Daun Jambu biji,Daun Leci Rusak BG,50.10%
+483,testing_083.png,Daun Jambu biji,Daun Alpukat Rusak NoBG,63.26%
+484,testing_084.jpg,Daun Jambu biji,Daun Leci NoBG,80.07%
+485,testing_085.jpg,Daun Jambu biji,Daun Leci NoBG,86.62%
+486,testing_086.jpg,Daun Jambu biji,Daun Leci NoBG,94.73%
+487,testing_087.jpg,Daun Jambu biji,Daun Leci NoBG,96.75%
+488,testing_088.jpg,Daun Jambu biji,Daun Leci NoBG,75.37%
+489,testing_089.jpg,Daun Jambu biji,Daun Leci NoBG,94.28%
+490,testing_090.jpg,Daun Jambu biji,Daun Leci NoBG,98.75%
+491,testing_091.jpg,Daun Jambu biji,Daun Leci NoBG,97.06%
+492,testing_092.jpg,Daun Jambu biji,Daun Leci NoBG,95.76%
+493,testing_093.jpg,Daun Jambu biji,Daun Leci NoBG,99.79%
+494,testing_094.jpg,Daun Jambu biji,Daun Leci NoBG,96.32%
+495,testing_095.jpg,Daun Jambu biji,Daun Leci NoBG,92.02%
+496,testing_096.jpg,Daun Jambu biji,Daun Leci NoBG,79.07%
+497,testing_097.jpg,Daun Jambu biji,Daun Leci NoBG,88.36%
+498,testing_098.jpg,Daun Jambu biji,Daun Leci NoBG,94.93%
+499,testing_099.jpg,Daun Jambu biji,Daun Leci NoBG,96.33%
+500,testing_100.jpg,Daun Jambu biji,Daun Leci NoBG,96.29%
+501,testing_001.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,79.05%
+502,testing_002.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.89%
+503,testing_003.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,65.56%
+504,testing_004.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,50.57%
+505,testing_005.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,62.17%
+506,testing_006.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.87%
+507,testing_007.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,62.32%
+508,testing_008.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,42.73%
+509,testing_009.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,46.85%
+510,testing_010.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,66.74%
+511,testing_011.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,88.85%
+512,testing_012.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,77.52%
+513,testing_013.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,78.64%
+514,testing_014.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,74.94%
+515,testing_015.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.11%
+516,testing_016.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,81.54%
+517,testing_017.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,83.11%
+518,testing_018.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.91%
+519,testing_019.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,62.64%
+520,testing_020.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.89%
+521,testing_021.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,88.88%
+522,testing_022.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,67.80%
+523,testing_023.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,84.10%
+524,testing_024.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,97.47%
+525,testing_025.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,60.10%
+526,testing_026.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.14%
+527,testing_027.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,54.37%
+528,testing_028.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,57.78%
+529,testing_029.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,62.85%
+530,testing_030.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,73.98%
+531,testing_031.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,73.30%
+532,testing_032.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,97.78%
+533,testing_033.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,96.11%
+534,testing_034.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,97.24%
+535,testing_035.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,89.13%
+536,testing_036.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,91.85%
+537,testing_037.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,70.12%
+538,testing_038.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,74.16%
+539,testing_039.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,52.20%
+540,testing_040.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,94.67%
+541,testing_041.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,96.24%
+542,testing_042.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,96.26%
+543,testing_043.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.92%
+544,testing_044.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.93%
+545,testing_045.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.88%
+546,testing_046.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,79.61%
+547,testing_047.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,78.48%
+548,testing_048.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,71.61%
+549,testing_049.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,90.29%
+550,testing_050.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.98%
+551,testing_051.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,87.77%
+552,testing_052.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,89.20%
+553,testing_053.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,67.64%
+554,testing_054.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,74.03%
+555,testing_055.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,91.42%
+556,testing_056.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,92.55%
+557,testing_057.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,95.12%
+558,testing_058.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,78.75%
+559,testing_059.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,65.01%
+560,testing_060.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,75.07%
+561,testing_061.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,97.49%
+562,testing_062.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.35%
+563,testing_063.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,52.55%
+564,testing_064.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.95%
+565,testing_065.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.81%
+566,testing_066.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,64.03%
+567,testing_067.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,99.81%
+568,testing_068.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,97.56%
+569,testing_069.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,62.15%
+570,testing_070.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,57.37%
+571,testing_071.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,91.93%
+572,testing_072.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,82.70%
+573,testing_073.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,58.10%
+574,testing_074.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,67.99%
+575,testing_075.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,79.96%
+576,testing_076.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,77.24%
+577,testing_077.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,94.81%
+578,testing_078.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,94.44%
+579,testing_079.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,75.86%
+580,testing_080.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,58.23%
+581,testing_081.png,Daun Jambu Biji Rusak,Daun Leci NoBG,69.64%
+582,testing_082.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,72.08%
+583,testing_083.png,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,89.23%
+584,testing_084.png,Daun Jambu Biji Rusak,Daun Leci Rusak BG,75.19%
+585,testing_085.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,53.32%
+586,testing_086.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,76.18%
+587,testing_087.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,83.85%
+588,testing_088.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,71.51%
+589,testing_089.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,65.93%
+590,testing_090.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,68.39%
+591,testing_091.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,54.46%
+592,testing_092.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,74.80%
+593,testing_093.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,48.26%
+594,testing_094.jpg,Daun Jambu Biji Rusak,Daun Leci Rusak BG,39.35%
+595,testing_095.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,51.81%
+596,testing_096.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,60.81%
+597,testing_097.jpg,Daun Jambu Biji Rusak,Daun Alpukat Rusak NoBG,49.26%
+598,testing_098.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,85.87%
+599,testing_099.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,64.95%
+600,testing_100.jpg,Daun Jambu Biji Rusak,Daun Leci NoBG,62.08%
+601,testing_001.jpg,Daun Leci,Daun Leci NoBG,99.50%
+602,testing_002.jpg,Daun Leci,Daun Leci NoBG,95.18%
+603,testing_003.jpg,Daun Leci,Daun Leci NoBG,98.61%
+604,testing_004.jpg,Daun Leci,Daun Leci NoBG,99.12%
+605,testing_005.jpg,Daun Leci,Daun Leci NoBG,98.20%
+606,testing_006.jpg,Daun Leci,Daun Leci NoBG,99.66%
+607,testing_007.jpg,Daun Leci,Daun Leci NoBG,53.32%
+608,testing_008.jpg,Daun Leci,Daun Leci NoBG,97.04%
+609,testing_009.jpg,Daun Leci,Daun Leci NoBG,99.78%
+610,testing_010.jpg,Daun Leci,Daun Leci NoBG,99.32%
+611,testing_011.jpg,Daun Leci,Daun Leci NoBG,99.82%
+612,testing_012.jpg,Daun Leci,Daun Leci NoBG,96.19%
+613,testing_013.jpg,Daun Leci,Daun Leci NoBG,96.17%
+614,testing_014.jpg,Daun Leci,Daun Leci NoBG,99.85%
+615,testing_015.jpg,Daun Leci,Daun Leci NoBG,99.96%
+616,testing_016.jpg,Daun Leci,Daun Leci NoBG,99.77%
+617,testing_017.jpg,Daun Leci,Daun Leci NoBG,91.38%
+618,testing_018.jpg,Daun Leci,Daun Leci NoBG,99.75%
+619,testing_019.jpg,Daun Leci,Daun Leci NoBG,99.96%
+620,testing_020.jpg,Daun Leci,Daun Leci NoBG,97.30%
+621,testing_021.jpg,Daun Leci,Daun Leci NoBG,99.95%
+622,testing_022.jpg,Daun Leci,Daun Leci Rusak BG,65.30%
+623,testing_023.jpg,Daun Leci,Daun Leci NoBG,98.80%
+624,testing_024.jpg,Daun Leci,Daun Leci NoBG,99.86%
+625,testing_025.jpg,Daun Leci,Daun Leci NoBG,97.42%
+626,testing_026.jpg,Daun Leci,Daun Leci NoBG,51.55%
+627,testing_027.jpg,Daun Leci,Daun Leci NoBG,98.44%
+628,testing_028.jpg,Daun Leci,Daun Leci NoBG,99.16%
+629,testing_029.jpg,Daun Leci,Daun Leci NoBG,97.27%
+630,testing_030.jpg,Daun Leci,Daun Leci NoBG,97.72%
+631,testing_031.jpg,Daun Leci,Daun Leci NoBG,80.05%
+632,testing_032.jpg,Daun Leci,Daun Leci NoBG,99.50%
+633,testing_033.jpg,Daun Leci,Daun Leci NoBG,92.86%
+634,testing_034.jpg,Daun Leci,Daun Leci NoBG,96.89%
+635,testing_035.jpg,Daun Leci,Daun Leci NoBG,87.60%
+636,testing_036.jpg,Daun Leci,Daun Leci NoBG,78.10%
+637,testing_037.jpg,Daun Leci,Daun Leci NoBG,96.99%
+638,testing_038.jpg,Daun Leci,Daun Leci NoBG,74.93%
+639,testing_039.jpg,Daun Leci,Daun Leci NoBG,100.00%
+640,testing_040.jpg,Daun Leci,Daun Leci NoBG,93.06%
+641,testing_041.jpg,Daun Leci,Daun Leci NoBG,59.70%
+642,testing_042.jpg,Daun Leci,Daun Leci NoBG,59.70%
+643,testing_043.jpg,Daun Leci,Daun Leci NoBG,94.66%
+644,testing_044.jpg,Daun Leci,Daun Leci NoBG,85.56%
+645,testing_045.jpg,Daun Leci,Daun Leci NoBG,52.18%
+646,testing_046.jpg,Daun Leci,Daun Leci NoBG,99.49%
+647,testing_047.jpg,Daun Leci,Daun Leci NoBG,99.35%
+648,testing_048.jpg,Daun Leci,Daun Leci NoBG,84.38%
+649,testing_049.jpg,Daun Leci,Daun Leci NoBG,99.89%
+650,testing_050.jpg,Daun Leci,Daun Leci Rusak BG,63.52%
+651,testing_051.jpg,Daun Leci,Daun Leci NoBG,72.83%
+652,testing_052.jpg,Daun Leci,Daun Leci NoBG,98.97%
+653,testing_053.jpg,Daun Leci,Daun Leci NoBG,98.82%
+654,testing_054.jpg,Daun Leci,Daun Leci Rusak BG,83.45%
+655,testing_055.jpg,Daun Leci,Daun Leci NoBG,99.08%
+656,testing_056.jpg,Daun Leci,Daun Leci NoBG,53.41%
+657,testing_057.jpg,Daun Leci,Daun Leci NoBG,99.82%
+658,testing_058.jpg,Daun Leci,Daun Leci NoBG,61.35%
+659,testing_059.jpg,Daun Leci,Daun Leci NoBG,75.76%
+660,testing_060.jpg,Daun Leci,Daun Leci NoBG,95.75%
+661,testing_061.jpg,Daun Leci,Daun Leci NoBG,99.93%
+662,testing_062.jpg,Daun Leci,Daun Leci NoBG,89.72%
+663,testing_063.jpg,Daun Leci,Daun Leci NoBG,62.39%
+664,testing_064.jpg,Daun Leci,Daun Leci NoBG,99.88%
+665,testing_065.jpg,Daun Leci,Daun Leci NoBG,58.84%
+666,testing_066.jpg,Daun Leci,Daun Leci NoBG,96.39%
+667,testing_067.jpg,Daun Leci,Daun Leci NoBG,54.32%
+668,testing_068.jpg,Daun Leci,Daun Leci Rusak BG,51.79%
+669,testing_069.jpg,Daun Leci,Daun Leci NoBG,82.61%
+670,testing_070.jpg,Daun Leci,Daun Leci NoBG,95.20%
+671,testing_071.jpg,Daun Leci,Daun Leci NoBG,73.04%
+672,testing_072.jpg,Daun Leci,Daun Leci NoBG,91.69%
+673,testing_073.jpg,Daun Leci,Daun Leci NoBG,94.46%
+674,testing_074.png,Daun Leci,Daun Alpukat Rusak NoBG,86.32%
+675,testing_075.png,Daun Leci,Daun Leci NoBG,87.09%
+676,testing_076.png,Daun Leci,Daun Leci NoBG,99.72%
+677,testing_077.png,Daun Leci,Daun Leci NoBG,99.52%
+678,testing_078.png,Daun Leci,Daun Leci NoBG,94.47%
+679,testing_079.png,Daun Leci,Daun Leci NoBG,99.42%
+680,testing_080.png,Daun Leci,Daun Leci NoBG,99.31%
+681,testing_081.png,Daun Leci,Daun Leci NoBG,99.47%
+682,testing_082.png,Daun Leci,Daun Leci NoBG,99.68%
+683,testing_083.png,Daun Leci,Daun Leci NoBG,99.66%
+684,testing_084.png,Daun Leci,Daun Leci NoBG,99.55%
+685,testing_085.png,Daun Leci,Daun Leci NoBG,99.59%
+686,testing_086.png,Daun Leci,Daun Leci NoBG,87.77%
+687,testing_087.png,Daun Leci,Daun Leci NoBG,96.18%
+688,testing_088.png,Daun Leci,Daun Leci NoBG,88.32%
+689,testing_089.png,Daun Leci,Daun Leci NoBG,98.40%
+690,testing_090.png,Daun Leci,Daun Leci NoBG,98.56%
+691,testing_091.png,Daun Leci,Daun Leci NoBG,98.25%
+692,testing_092.png,Daun Leci,Daun Leci NoBG,95.59%
+693,testing_093.jpg,Daun Leci,Daun Leci NoBG,64.63%
+694,testing_094.jpg,Daun Leci,Daun Alpukat Rusak NoBG,64.87%
+695,testing_095.jpg,Daun Leci,Daun Leci NoBG,77.68%
+696,testing_096.jpg,Daun Leci,Daun Leci NoBG,79.59%
+697,testing_097.jpg,Daun Leci,Daun Leci NoBG,98.97%
+698,testing_098.jpg,Daun Leci,Daun Leci NoBG,98.54%
+699,testing_099.jpg,Daun Leci,Daun Alpukat Rusak NoBG,51.05%
+700,testing_100.jpg,Daun Leci,Daun Alpukat Rusak NoBG,46.60%
+701,testing_001.jpg,Daun Leci Rusak,Daun Leci NoBG,85.05%
+702,testing_002.jpg,Daun Leci Rusak,Daun Leci NoBG,99.73%
+703,testing_003.jpg,Daun Leci Rusak,Daun Leci NoBG,99.62%
+704,testing_004.jpg,Daun Leci Rusak,Daun Leci NoBG,92.27%
+705,testing_005.jpg,Daun Leci Rusak,Daun Leci NoBG,90.99%
+706,testing_006.jpg,Daun Leci Rusak,Daun Leci NoBG,89.82%
+707,testing_007.jpg,Daun Leci Rusak,Daun Leci NoBG,99.03%
+708,testing_008.jpg,Daun Leci Rusak,Daun Leci NoBG,97.70%
+709,testing_009.jpg,Daun Leci Rusak,Daun Leci NoBG,98.21%
+710,testing_010.jpg,Daun Leci Rusak,Daun Leci NoBG,96.95%
+711,testing_011.jpg,Daun Leci Rusak,Daun Leci NoBG,99.58%
+712,testing_012.jpg,Daun Leci Rusak,Daun Leci NoBG,86.66%
+713,testing_013.jpg,Daun Leci Rusak,Daun Leci NoBG,99.04%
+714,testing_014.jpg,Daun Leci Rusak,Daun Leci NoBG,90.51%
+715,testing_015.jpg,Daun Leci Rusak,Daun Leci NoBG,90.51%
+716,testing_016.jpg,Daun Leci Rusak,Daun Leci NoBG,99.02%
+717,testing_017.jpg,Daun Leci Rusak,Daun Leci NoBG,99.96%
+718,testing_018.jpg,Daun Leci Rusak,Daun Leci NoBG,98.81%
+719,testing_019.jpg,Daun Leci Rusak,Daun Leci NoBG,99.04%
+720,testing_020.jpg,Daun Leci Rusak,Daun Leci NoBG,99.89%
+721,testing_021.jpg,Daun Leci Rusak,Daun Leci NoBG,98.84%
+722,testing_022.jpg,Daun Leci Rusak,Daun Leci NoBG,99.77%
+723,testing_023.jpg,Daun Leci Rusak,Daun Leci NoBG,99.86%
+724,testing_024.jpg,Daun Leci Rusak,Daun Leci NoBG,99.81%
+725,testing_025.jpg,Daun Leci Rusak,Daun Leci NoBG,96.72%
+726,testing_026.jpg,Daun Leci Rusak,Daun Leci NoBG,99.94%
+727,testing_027.jpg,Daun Leci Rusak,Daun Leci NoBG,98.88%
+728,testing_028.jpg,Daun Leci Rusak,Daun Leci NoBG,97.99%
+729,testing_029.jpg,Daun Leci Rusak,Daun Leci NoBG,98.92%
+730,testing_030.jpg,Daun Leci Rusak,Daun Leci NoBG,99.94%
+731,testing_031.jpg,Daun Leci Rusak,Daun Leci NoBG,99.01%
+732,testing_032.jpg,Daun Leci Rusak,Daun Leci Rusak BG,56.20%
+733,testing_033.jpg,Daun Leci Rusak,Daun Leci NoBG,89.54%
+734,testing_034.jpg,Daun Leci Rusak,Daun Leci NoBG,93.60%
+735,testing_035.jpg,Daun Leci Rusak,Daun Leci NoBG,96.85%
+736,testing_036.jpg,Daun Leci Rusak,Daun Leci NoBG,51.92%
+737,testing_037.jpg,Daun Leci Rusak,Daun Leci NoBG,75.00%
+738,testing_038.jpg,Daun Leci Rusak,Daun Leci NoBG,94.53%
+739,testing_039.jpg,Daun Leci Rusak,Daun Leci NoBG,97.40%
+740,testing_040.jpg,Daun Leci Rusak,Daun Leci NoBG,72.29%
+741,testing_041.jpg,Daun Leci Rusak,Daun Leci Rusak BG,63.13%
+742,testing_042.jpg,Daun Leci Rusak,Daun Leci NoBG,50.17%
+743,testing_043.jpg,Daun Leci Rusak,Daun Leci NoBG,71.59%
+744,testing_044.jpg,Daun Leci Rusak,Daun Leci NoBG,97.86%
+745,testing_045.jpg,Daun Leci Rusak,Daun Leci Rusak BG,50.70%
+746,testing_046.jpg,Daun Leci Rusak,Daun Leci NoBG,91.18%
+747,testing_047.jpg,Daun Leci Rusak,Daun Leci Rusak BG,70.05%
+748,testing_048.jpg,Daun Leci Rusak,Daun Leci NoBG,97.83%
+749,testing_049.jpg,Daun Leci Rusak,Daun Leci NoBG,78.01%
+750,testing_050.jpg,Daun Leci Rusak,Daun Leci NoBG,86.03%
+751,testing_051.jpg,Daun Leci Rusak,Daun Leci NoBG,91.80%
+752,testing_052.jpg,Daun Leci Rusak,Daun Leci NoBG,76.78%
+753,testing_053.jpg,Daun Leci Rusak,Daun Leci Rusak BG,52.26%
+754,testing_054.jpg,Daun Leci Rusak,Daun Leci NoBG,99.93%
+755,testing_055.jpg,Daun Leci Rusak,Daun Leci NoBG,99.12%
+756,testing_056.jpg,Daun Leci Rusak,Daun Leci NoBG,99.90%
+757,testing_057.jpg,Daun Leci Rusak,Daun Leci NoBG,99.95%
+758,testing_058.jpg,Daun Leci Rusak,Daun Leci NoBG,95.59%
+759,testing_059.jpg,Daun Leci Rusak,Daun Leci NoBG,98.72%
+760,testing_060.jpg,Daun Leci Rusak,Daun Leci NoBG,99.93%
+761,testing_061.jpg,Daun Leci Rusak,Daun Leci NoBG,96.92%
+762,testing_062.jpg,Daun Leci Rusak,Daun Leci NoBG,99.88%
+763,testing_063.jpg,Daun Leci Rusak,Daun Leci NoBG,96.64%
+764,testing_064.jpg,Daun Leci Rusak,Daun Leci NoBG,98.97%
+765,testing_065.jpg,Daun Leci Rusak,Daun Leci NoBG,99.36%
+766,testing_066.jpg,Daun Leci Rusak,Daun Leci NoBG,99.26%
+767,testing_067.jpg,Daun Leci Rusak,Daun Leci NoBG,99.46%
+768,testing_068.jpg,Daun Leci Rusak,Daun Leci NoBG,98.74%
+769,testing_069.png,Daun Leci Rusak,Daun Leci NoBG,99.69%
+770,testing_070.png,Daun Leci Rusak,Daun Leci NoBG,83.22%
+771,testing_071.png,Daun Leci Rusak,Daun Leci NoBG,99.76%
+772,testing_072.png,Daun Leci Rusak,Daun Leci NoBG,98.88%
+773,testing_073.png,Daun Leci Rusak,Daun Leci NoBG,99.45%
+774,testing_074.png,Daun Leci Rusak,Daun Leci NoBG,98.27%
+775,testing_075.png,Daun Leci Rusak,Daun Leci NoBG,76.23%
+776,testing_076.png,Daun Leci Rusak,Daun Leci NoBG,66.21%
+777,testing_077.png,Daun Leci Rusak,Daun Leci NoBG,82.82%
+778,testing_078.png,Daun Leci Rusak,Daun Leci NoBG,70.16%
+779,testing_079.png,Daun Leci Rusak,Daun Leci NoBG,87.64%
+780,testing_080.png,Daun Leci Rusak,Daun Leci NoBG,58.28%
+781,testing_081.png,Daun Leci Rusak,Daun Leci NoBG,57.40%
+782,testing_082.png,Daun Leci Rusak,Daun Leci Rusak BG,63.88%
+783,testing_083.png,Daun Leci Rusak,Daun Leci Rusak BG,76.97%
+784,testing_084.png,Daun Leci Rusak,Daun Leci NoBG,96.90%
+785,testing_085.png,Daun Leci Rusak,Daun Leci NoBG,91.71%
+786,testing_086.png,Daun Leci Rusak,Daun Leci Rusak BG,90.79%
+787,testing_087.png,Daun Leci Rusak,Daun Leci NoBG,94.59%
+788,testing_088.jpg,Daun Leci Rusak,Daun Leci NoBG,99.92%
+789,testing_089.jpg,Daun Leci Rusak,Daun Leci NoBG,99.96%
+790,testing_090.jpg,Daun Leci Rusak,Daun Leci NoBG,99.90%
+791,testing_091.jpg,Daun Leci Rusak,Daun Leci NoBG,99.53%
+792,testing_092.jpg,Daun Leci Rusak,Daun Leci NoBG,99.80%
+793,testing_093.jpg,Daun Leci Rusak,Daun Leci NoBG,99.73%
+794,testing_094.jpg,Daun Leci Rusak,Daun Leci NoBG,99.65%
+795,testing_095.jpg,Daun Leci Rusak,Daun Leci NoBG,98.57%
+796,testing_096.jpg,Daun Leci Rusak,Daun Leci NoBG,99.91%
+797,testing_097.jpg,Daun Leci Rusak,Daun Leci NoBG,99.57%
+798,testing_098.jpg,Daun Leci Rusak,Daun Leci NoBG,99.85%
+799,testing_099.jpg,Daun Leci Rusak,Daun Leci NoBG,98.43%
+800,testing_100.jpg,Daun Leci Rusak,Daun Leci NoBG,99.55%
+801,testing_001.jpg,Daun Nangka,Daun Leci NoBG,48.75%
+802,testing_002.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,68.28%
+803,testing_003.jpg,Daun Nangka,Daun Leci NoBG,94.02%
+804,testing_004.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,81.99%
+805,testing_005.jpg,Daun Nangka,Daun Leci NoBG,65.08%
+806,testing_006.jpg,Daun Nangka,Daun Leci NoBG,99.89%
+807,testing_007.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,72.08%
+808,testing_008.jpg,Daun Nangka,Daun Leci NoBG,74.46%
+809,testing_009.jpg,Daun Nangka,Daun Leci NoBG,84.81%
+810,testing_010.jpg,Daun Nangka,Daun Leci NoBG,98.47%
+811,testing_011.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,81.14%
+812,testing_012.jpg,Daun Nangka,Daun Leci NoBG,86.86%
+813,testing_013.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,85.09%
+814,testing_014.jpg,Daun Nangka,Daun Leci NoBG,95.02%
+815,testing_015.jpg,Daun Nangka,Daun Leci NoBG,99.49%
+816,testing_016.jpg,Daun Nangka,Daun Leci NoBG,97.65%
+817,testing_017.jpg,Daun Nangka,Daun Leci NoBG,98.36%
+818,testing_018.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,80.41%
+819,testing_019.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,85.08%
+820,testing_020.jpg,Daun Nangka,Daun Leci NoBG,48.53%
+821,testing_021.jpg,Daun Nangka,Daun Leci NoBG,99.50%
+822,testing_022.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,54.65%
+823,testing_023.jpg,Daun Nangka,Daun Leci NoBG,81.85%
+824,testing_024.jpg,Daun Nangka,Daun Leci NoBG,95.30%
+825,testing_025.jpg,Daun Nangka,Daun Leci NoBG,96.02%
+826,testing_026.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,64.26%
+827,testing_027.jpg,Daun Nangka,Daun Leci NoBG,71.96%
+828,testing_028.jpg,Daun Nangka,Daun Leci NoBG,70.13%
+829,testing_029.jpg,Daun Nangka,Daun Leci NoBG,41.97%
+830,testing_030.jpg,Daun Nangka,Daun Leci NoBG,99.00%
+831,testing_031.jpg,Daun Nangka,Daun Leci Rusak BG,62.12%
+832,testing_032.jpg,Daun Nangka,Daun Leci NoBG,83.19%
+833,testing_033.jpg,Daun Nangka,Daun Leci NoBG,59.75%
+834,testing_034.jpg,Daun Nangka,Daun Leci NoBG,58.99%
+835,testing_035.jpg,Daun Nangka,Daun Leci NoBG,76.18%
+836,testing_036.jpg,Daun Nangka,Daun Leci Rusak BG,65.90%
+837,testing_037.jpg,Daun Nangka,Daun Leci Rusak BG,77.05%
+838,testing_038.jpg,Daun Nangka,Daun Leci Rusak BG,61.51%
+839,testing_039.jpg,Daun Nangka,Daun Leci NoBG,75.06%
+840,testing_040.jpg,Daun Nangka,Daun Leci NoBG,48.44%
+841,testing_041.jpg,Daun Nangka,Daun Leci NoBG,59.75%
+842,testing_042.jpg,Daun Nangka,Daun Leci NoBG,52.56%
+843,testing_043.jpg,Daun Nangka,Daun Leci NoBG,50.88%
+844,testing_044.jpg,Daun Nangka,Daun Leci Rusak BG,49.76%
+845,testing_045.jpg,Daun Nangka,Daun Leci Rusak BG,73.55%
+846,testing_046.jpg,Daun Nangka,Daun Leci NoBG,99.82%
+847,testing_047.jpg,Daun Nangka,Daun Leci Rusak BG,43.00%
+848,testing_048.jpg,Daun Nangka,Daun Leci NoBG,97.35%
+849,testing_049.jpg,Daun Nangka,Daun Leci NoBG,99.01%
+850,testing_050.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,68.76%
+851,testing_051.jpg,Daun Nangka,Daun Leci NoBG,85.77%
+852,testing_052.jpg,Daun Nangka,Daun Leci NoBG,89.99%
+853,testing_053.jpg,Daun Nangka,Daun Leci NoBG,93.60%
+854,testing_054.jpg,Daun Nangka,Daun Leci NoBG,80.96%
+855,testing_055.jpg,Daun Nangka,Daun Leci NoBG,99.88%
+856,testing_056.jpg,Daun Nangka,Daun Leci NoBG,99.41%
+857,testing_057.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,68.31%
+858,testing_058.jpg,Daun Nangka,Daun Leci NoBG,98.96%
+859,testing_059.png,Daun Nangka,Daun Leci NoBG,99.17%
+860,testing_060.png,Daun Nangka,Daun Leci NoBG,99.50%
+861,testing_061.png,Daun Nangka,Daun Leci NoBG,41.48%
+862,testing_062.png,Daun Nangka,Daun Alpukat Rusak NoBG,64.41%
+863,testing_063.png,Daun Nangka,Daun Leci NoBG,51.69%
+864,testing_064.png,Daun Nangka,Daun Leci NoBG,96.73%
+865,testing_065.png,Daun Nangka,Daun Leci NoBG,82.07%
+866,testing_066.png,Daun Nangka,Daun Leci NoBG,50.54%
+867,testing_067.png,Daun Nangka,Daun Leci NoBG,99.34%
+868,testing_068.png,Daun Nangka,Daun Leci NoBG,98.67%
+869,testing_069.png,Daun Nangka,Daun Alpukat Rusak NoBG,78.57%
+870,testing_070.png,Daun Nangka,Daun Leci Rusak BG,78.04%
+871,testing_071.png,Daun Nangka,Daun Alpukat Rusak NoBG,41.62%
+872,testing_072.png,Daun Nangka,Daun Alpukat Rusak NoBG,68.15%
+873,testing_073.png,Daun Nangka,Daun Leci NoBG,99.78%
+874,testing_074.png,Daun Nangka,Daun Leci NoBG,99.42%
+875,testing_075.png,Daun Nangka,Daun Leci NoBG,97.21%
+876,testing_076.png,Daun Nangka,Daun Leci NoBG,95.86%
+877,testing_077.png,Daun Nangka,Daun Leci NoBG,99.99%
+878,testing_078.png,Daun Nangka,Daun Leci NoBG,79.49%
+879,testing_079.png,Daun Nangka,Daun Leci NoBG,96.47%
+880,testing_080.png,Daun Nangka,Daun Leci NoBG,90.09%
+881,testing_081.png,Daun Nangka,Daun Leci NoBG,87.78%
+882,testing_082.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.97%
+883,testing_083.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.82%
+884,testing_084.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.92%
+885,testing_085.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.32%
+886,testing_086.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.99%
+887,testing_087.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.97%
+888,testing_088.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.94%
+889,testing_089.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.98%
+890,testing_090.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.99%
+891,testing_091.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.77%
+892,testing_092.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.85%
+893,testing_093.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.98%
+894,testing_094.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.95%
+895,testing_095.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.98%
+896,testing_096.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.93%
+897,testing_097.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,98.11%
+898,testing_098.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.96%
+899,testing_099.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.77%
+900,testing_100.jpg,Daun Nangka,Daun Alpukat Rusak NoBG,99.76%
+901,testing_001.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,84.44%
+902,testing_002.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,84.98%
+903,testing_003.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,89.09%
+904,testing_004.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,76.87%
+905,testing_005.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,83.60%
+906,testing_006.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,56.57%
+907,testing_007.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,80.43%
+908,testing_008.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,84.06%
+909,testing_009.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,54.69%
+910,testing_010.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,59.36%
+911,testing_011.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,78.02%
+912,testing_012.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,63.29%
+913,testing_013.jpg,Daun Nangka Rusak,Daun Leci NoBG,63.62%
+914,testing_014.jpg,Daun Nangka Rusak,Daun Leci NoBG,99.66%
+915,testing_015.jpg,Daun Nangka Rusak,Daun Leci NoBG,99.66%
+916,testing_016.jpg,Daun Nangka Rusak,Daun Leci NoBG,95.07%
+917,testing_017.jpg,Daun Nangka Rusak,Daun Leci NoBG,98.72%
+918,testing_018.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,56.56%
+919,testing_019.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,91.53%
+920,testing_020.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,90.74%
+921,testing_021.jpg,Daun Nangka Rusak,Daun Leci NoBG,68.66%
+922,testing_022.jpg,Daun Nangka Rusak,Daun Leci NoBG,86.36%
+923,testing_023.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,62.42%
+924,testing_024.jpg,Daun Nangka Rusak,Daun Leci NoBG,46.92%
+925,testing_025.jpg,Daun Nangka Rusak,Daun Leci NoBG,98.32%
+926,testing_026.jpg,Daun Nangka Rusak,Daun Leci NoBG,93.66%
+927,testing_027.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,80.19%
+928,testing_028.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,89.52%
+929,testing_029.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,76.86%
+930,testing_030.jpg,Daun Nangka Rusak,Daun Leci NoBG,59.19%
+931,testing_031.jpg,Daun Nangka Rusak,Daun Leci NoBG,62.45%
+932,testing_032.jpg,Daun Nangka Rusak,Daun Leci NoBG,93.20%
+933,testing_033.jpg,Daun Nangka Rusak,Daun Leci NoBG,73.75%
+934,testing_034.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,69.59%
+935,testing_035.jpg,Daun Nangka Rusak,Daun Leci NoBG,51.86%
+936,testing_036.jpg,Daun Nangka Rusak,Daun Leci NoBG,55.89%
+937,testing_037.jpg,Daun Nangka Rusak,Daun Leci NoBG,78.29%
+938,testing_038.jpg,Daun Nangka Rusak,Daun Leci NoBG,96.15%
+939,testing_039.jpg,Daun Nangka Rusak,Daun Leci NoBG,80.68%
+940,testing_040.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,72.37%
+941,testing_041.jpg,Daun Nangka Rusak,Daun Leci NoBG,93.83%
+942,testing_042.jpg,Daun Nangka Rusak,Daun Leci NoBG,53.46%
+943,testing_043.jpg,Daun Nangka Rusak,Daun Leci NoBG,73.78%
+944,testing_044.jpg,Daun Nangka Rusak,Daun Leci NoBG,66.48%
+945,testing_045.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,78.59%
+946,testing_046.jpg,Daun Nangka Rusak,Daun Leci NoBG,86.31%
+947,testing_047.jpg,Daun Nangka Rusak,Daun Leci NoBG,65.17%
+948,testing_048.jpg,Daun Nangka Rusak,Daun Leci NoBG,69.90%
+949,testing_049.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,55.18%
+950,testing_050.jpg,Daun Nangka Rusak,Daun Leci NoBG,70.12%
+951,testing_051.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,47.03%
+952,testing_052.jpg,Daun Nangka Rusak,Daun Leci NoBG,91.36%
+953,testing_053.jpg,Daun Nangka Rusak,Daun Leci NoBG,98.62%
+954,testing_054.jpg,Daun Nangka Rusak,Daun Leci NoBG,88.65%
+955,testing_055.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,54.71%
+956,testing_056.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,51.94%
+957,testing_057.jpg,Daun Nangka Rusak,Daun Leci NoBG,95.43%
+958,testing_058.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,46.44%
+959,testing_059.jpg,Daun Nangka Rusak,Daun Leci NoBG,92.60%
+960,testing_060.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,82.04%
+961,testing_061.jpg,Daun Nangka Rusak,Daun Leci NoBG,49.77%
+962,testing_062.jpg,Daun Nangka Rusak,Daun Leci NoBG,97.01%
+963,testing_063.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,47.03%
+964,testing_064.jpg,Daun Nangka Rusak,Daun Leci NoBG,94.85%
+965,testing_065.jpg,Daun Nangka Rusak,Daun Leci NoBG,88.89%
+966,testing_066.jpg,Daun Nangka Rusak,Daun Leci NoBG,80.80%
+967,testing_067.jpg,Daun Nangka Rusak,Daun Leci NoBG,97.38%
+968,testing_068.jpg,Daun Nangka Rusak,Daun Leci NoBG,95.30%
+969,testing_069.jpg,Daun Nangka Rusak,Daun Leci NoBG,90.04%
+970,testing_070.jpg,Daun Nangka Rusak,Daun Leci NoBG,79.40%
+971,testing_071.jpg,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,84.28%
+972,testing_072.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,51.12%
+973,testing_073.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,62.66%
+974,testing_074.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,82.72%
+975,testing_075.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,74.62%
+976,testing_076.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,64.28%
+977,testing_077.png,Daun Nangka Rusak,Daun Leci NoBG,97.19%
+978,testing_078.png,Daun Nangka Rusak,Daun Leci NoBG,98.85%
+979,testing_079.png,Daun Nangka Rusak,Daun Leci NoBG,66.91%
+980,testing_080.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,55.23%
+981,testing_081.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,68.73%
+982,testing_082.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,85.75%
+983,testing_083.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,75.73%
+984,testing_084.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,84.75%
+985,testing_085.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,88.02%
+986,testing_086.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,86.91%
+987,testing_087.png,Daun Nangka Rusak,Daun Leci NoBG,72.09%
+988,testing_088.png,Daun Nangka Rusak,Daun Leci NoBG,63.12%
+989,testing_089.png,Daun Nangka Rusak,Daun Leci NoBG,61.67%
+990,testing_090.png,Daun Nangka Rusak,Daun Leci NoBG,49.90%
+991,testing_091.png,Daun Nangka Rusak,Daun Alpukat Rusak NoBG,50.99%
+992,testing_092.png,Daun Nangka Rusak,Daun Leci Rusak BG,40.63%
+993,testing_093.png,Daun Nangka Rusak,Daun Leci NoBG,58.95%
+994,testing_094.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,82.84%
+995,testing_095.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,80.05%
+996,testing_096.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,99.35%
+997,testing_097.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,99.36%
+998,testing_098.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,99.88%
+999,testing_099.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,98.63%
+1000,testing_100.jpg,Daun Nangka Rusak,Daun Leci Rusak BG,97.82%
+1001,testing_001.jpg,Daun Salam,Daun Alpukat Rusak NoBG,76.26%
+1002,testing_002.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.55%
+1003,testing_003.jpg,Daun Salam,Daun Alpukat Rusak NoBG,95.18%
+1004,testing_004.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.47%
+1005,testing_005.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.56%
+1006,testing_006.jpg,Daun Salam,Daun Alpukat Rusak NoBG,93.01%
+1007,testing_007.jpg,Daun Salam,Daun Alpukat Rusak NoBG,94.03%
+1008,testing_008.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.48%
+1009,testing_009.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.41%
+1010,testing_010.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.66%
+1011,testing_011.jpg,Daun Salam,Daun Alpukat Rusak NoBG,83.26%
+1012,testing_012.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.06%
+1013,testing_013.jpg,Daun Salam,Daun Alpukat Rusak NoBG,92.65%
+1014,testing_014.jpg,Daun Salam,Daun Alpukat Rusak NoBG,94.21%
+1015,testing_015.jpg,Daun Salam,Daun Alpukat Rusak NoBG,92.12%
+1016,testing_016.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.93%
+1017,testing_017.jpg,Daun Salam,Daun Alpukat Rusak NoBG,59.26%
+1018,testing_018.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.58%
+1019,testing_019.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.75%
+1020,testing_020.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.83%
+1021,testing_021.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.12%
+1022,testing_022.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.32%
+1023,testing_023.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.29%
+1024,testing_024.jpg,Daun Salam,Daun Alpukat Rusak NoBG,93.88%
+1025,testing_025.jpg,Daun Salam,Daun Alpukat Rusak NoBG,70.65%
+1026,testing_026.jpg,Daun Salam,Daun Alpukat Rusak NoBG,94.51%
+1027,testing_027.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.78%
+1028,testing_028.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.82%
+1029,testing_029.jpg,Daun Salam,Daun Alpukat Rusak NoBG,86.09%
+1030,testing_030.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.36%
+1031,testing_031.jpg,Daun Salam,Daun Alpukat Rusak NoBG,96.99%
+1032,testing_032.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.30%
+1033,testing_033.jpg,Daun Salam,Daun Leci Rusak BG,97.18%
+1034,testing_034.jpg,Daun Salam,Daun Leci Rusak BG,99.34%
+1035,testing_035.jpg,Daun Salam,Daun Leci Rusak BG,90.99%
+1036,testing_036.jpg,Daun Salam,Daun Leci Rusak BG,98.84%
+1037,testing_037.jpg,Daun Salam,Daun Leci Rusak BG,95.75%
+1038,testing_038.jpg,Daun Salam,Daun Leci Rusak BG,97.48%
+1039,testing_039.jpg,Daun Salam,Daun Leci Rusak BG,99.83%
+1040,testing_040.jpg,Daun Salam,Daun Leci Rusak BG,99.94%
+1041,testing_041.jpg,Daun Salam,Daun Leci Rusak BG,94.85%
+1042,testing_042.jpg,Daun Salam,Daun Leci Rusak BG,96.45%
+1043,testing_043.jpg,Daun Salam,Daun Leci Rusak BG,97.22%
+1044,testing_044.jpg,Daun Salam,Daun Leci Rusak BG,98.07%
+1045,testing_045.jpg,Daun Salam,Daun Leci Rusak BG,97.83%
+1046,testing_046.jpg,Daun Salam,Daun Leci Rusak BG,99.76%
+1047,testing_047.jpg,Daun Salam,Daun Alpukat Rusak NoBG,52.44%
+1048,testing_048.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.45%
+1049,testing_049.jpg,Daun Salam,Daun Alpukat Rusak NoBG,100.00%
+1050,testing_050.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.52%
+1051,testing_051.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.98%
+1052,testing_052.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.84%
+1053,testing_053.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.99%
+1054,testing_054.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.71%
+1055,testing_055.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.99%
+1056,testing_056.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.99%
+1057,testing_057.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.95%
+1058,testing_058.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.95%
+1059,testing_059.jpg,Daun Salam,Daun Alpukat Rusak NoBG,100.00%
+1060,testing_060.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.93%
+1061,testing_061.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.51%
+1062,testing_062.jpg,Daun Salam,Daun Alpukat Rusak NoBG,97.57%
+1063,testing_063.jpg,Daun Salam,Daun Alpukat Rusak NoBG,94.32%
+1064,testing_064.jpg,Daun Salam,Daun Alpukat Rusak NoBG,95.40%
+1065,testing_065.jpg,Daun Salam,Daun Alpukat Rusak NoBG,95.67%
+1066,testing_066.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.99%
+1067,testing_067.jpg,Daun Salam,Daun Alpukat Rusak NoBG,95.40%
+1068,testing_068.jpg,Daun Salam,Daun Alpukat Rusak NoBG,96.58%
+1069,testing_069.png,Daun Salam,Daun Alpukat Rusak NoBG,99.23%
+1070,testing_070.png,Daun Salam,Daun Alpukat Rusak NoBG,99.39%
+1071,testing_071.png,Daun Salam,Daun Alpukat Rusak NoBG,95.48%
+1072,testing_072.png,Daun Salam,Daun Alpukat Rusak NoBG,90.25%
+1073,testing_073.png,Daun Salam,Daun Alpukat Rusak NoBG,91.45%
+1074,testing_074.png,Daun Salam,Daun Alpukat Rusak NoBG,99.11%
+1075,testing_075.png,Daun Salam,Daun Alpukat Rusak NoBG,98.19%
+1076,testing_076.png,Daun Salam,Daun Alpukat Rusak NoBG,99.67%
+1077,testing_077.png,Daun Salam,Daun Alpukat Rusak NoBG,96.62%
+1078,testing_078.png,Daun Salam,Daun Alpukat Rusak NoBG,54.76%
+1079,testing_079.png,Daun Salam,Daun Alpukat Rusak NoBG,96.61%
+1080,testing_080.png,Daun Salam,Daun Alpukat Rusak NoBG,88.54%
+1081,testing_081.png,Daun Salam,Daun Alpukat Rusak NoBG,96.90%
+1082,testing_082.png,Daun Salam,Daun Alpukat Rusak NoBG,88.36%
+1083,testing_083.png,Daun Salam,Daun Alpukat Rusak NoBG,97.02%
+1084,testing_084.png,Daun Salam,Daun Alpukat Rusak NoBG,93.35%
+1085,testing_085.png,Daun Salam,Daun Alpukat Rusak NoBG,99.11%
+1086,testing_086.png,Daun Salam,Daun Alpukat Rusak NoBG,95.98%
+1087,testing_087.png,Daun Salam,Daun Alpukat Rusak NoBG,99.36%
+1088,testing_088.jpg,Daun Salam,Daun Alpukat Rusak NoBG,86.62%
+1089,testing_089.jpg,Daun Salam,Daun Alpukat Rusak NoBG,90.86%
+1090,testing_090.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.71%
+1091,testing_091.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.08%
+1092,testing_092.jpg,Daun Salam,Daun Alpukat Rusak NoBG,88.44%
+1093,testing_093.jpg,Daun Salam,Daun Alpukat Rusak NoBG,80.25%
+1094,testing_094.jpg,Daun Salam,Daun Alpukat Rusak NoBG,87.41%
+1095,testing_095.jpg,Daun Salam,Daun Alpukat Rusak NoBG,81.47%
+1096,testing_096.jpg,Daun Salam,Daun Alpukat Rusak NoBG,79.35%
+1097,testing_097.jpg,Daun Salam,Daun Alpukat Rusak NoBG,81.40%
+1098,testing_098.jpg,Daun Salam,Daun Alpukat Rusak NoBG,70.28%
+1099,testing_099.jpg,Daun Salam,Daun Alpukat Rusak NoBG,98.44%
+1100,testing_100.jpg,Daun Salam,Daun Alpukat Rusak NoBG,99.66%
+1101,testing_001.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.62%
+1102,testing_002.jpg,Daun Salam Rusak,Daun Leci Rusak BG,92.12%
+1103,testing_003.jpg,Daun Salam Rusak,Daun Leci Rusak BG,95.16%
+1104,testing_004.jpg,Daun Salam Rusak,Daun Leci Rusak BG,99.79%
+1105,testing_005.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.16%
+1106,testing_006.jpg,Daun Salam Rusak,Daun Leci Rusak BG,99.85%
+1107,testing_007.jpg,Daun Salam Rusak,Daun Leci Rusak BG,96.89%
+1108,testing_008.jpg,Daun Salam Rusak,Daun Leci Rusak BG,98.18%
+1109,testing_009.jpg,Daun Salam Rusak,Daun Leci Rusak BG,94.57%
+1110,testing_010.jpg,Daun Salam Rusak,Daun Leci Rusak BG,93.11%
+1111,testing_011.jpg,Daun Salam Rusak,Daun Leci Rusak BG,98.95%
+1112,testing_012.jpg,Daun Salam Rusak,Daun Leci Rusak BG,99.12%
+1113,testing_013.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,73.33%
+1114,testing_014.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,97.71%
+1115,testing_015.jpg,Daun Salam Rusak,Daun Leci Rusak BG,84.66%
+1116,testing_016.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.83%
+1117,testing_017.jpg,Daun Salam Rusak,Daun Leci Rusak BG,83.64%
+1118,testing_018.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,96.93%
+1119,testing_019.jpg,Daun Salam Rusak,Daun Leci Rusak BG,94.13%
+1120,testing_020.jpg,Daun Salam Rusak,Daun Leci Rusak BG,87.26%
+1121,testing_021.jpg,Daun Salam Rusak,Daun Leci Rusak BG,86.39%
+1122,testing_022.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,86.12%
+1123,testing_023.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,92.71%
+1124,testing_024.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.38%
+1125,testing_025.jpg,Daun Salam Rusak,Daun Leci Rusak BG,84.18%
+1126,testing_026.jpg,Daun Salam Rusak,Daun Leci Rusak BG,83.35%
+1127,testing_027.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,96.29%
+1128,testing_028.jpg,Daun Salam Rusak,Daun Leci Rusak BG,92.87%
+1129,testing_029.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.87%
+1130,testing_030.jpg,Daun Salam Rusak,Daun Leci Rusak BG,95.99%
+1131,testing_031.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,96.32%
+1132,testing_032.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.93%
+1133,testing_033.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,89.06%
+1134,testing_034.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,78.93%
+1135,testing_035.jpg,Daun Salam Rusak,Daun Leci Rusak BG,81.61%
+1136,testing_036.jpg,Daun Salam Rusak,Daun Leci Rusak BG,92.42%
+1137,testing_037.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.71%
+1138,testing_038.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,88.13%
+1139,testing_039.jpg,Daun Salam Rusak,Daun Leci Rusak BG,88.43%
+1140,testing_040.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.53%
+1141,testing_041.jpg,Daun Salam Rusak,Daun Leci Rusak BG,90.43%
+1142,testing_042.jpg,Daun Salam Rusak,Daun Leci Rusak BG,77.14%
+1143,testing_043.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.87%
+1144,testing_044.jpg,Daun Salam Rusak,Daun Leci Rusak BG,99.59%
+1145,testing_045.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,95.91%
+1146,testing_046.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.75%
+1147,testing_047.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.90%
+1148,testing_048.jpg,Daun Salam Rusak,Daun Leci Rusak BG,60.27%
+1149,testing_049.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.22%
+1150,testing_050.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,83.59%
+1151,testing_051.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.28%
+1152,testing_052.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,88.68%
+1153,testing_053.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,73.79%
+1154,testing_054.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,97.42%
+1155,testing_055.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.19%
+1156,testing_056.jpg,Daun Salam Rusak,Daun Leci Rusak BG,91.72%
+1157,testing_057.jpg,Daun Salam Rusak,Daun Leci Rusak BG,82.89%
+1158,testing_058.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,95.16%
+1159,testing_059.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,88.81%
+1160,testing_060.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,89.99%
+1161,testing_061.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.24%
+1162,testing_062.jpg,Daun Salam Rusak,Daun Leci Rusak BG,80.17%
+1163,testing_063.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,95.72%
+1164,testing_064.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,94.85%
+1165,testing_065.png,Daun Salam Rusak,Daun Alpukat Rusak NoBG,93.04%
+1166,testing_066.png,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.34%
+1167,testing_067.png,Daun Salam Rusak,Daun Alpukat Rusak NoBG,97.40%
+1168,testing_068.png,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.77%
+1169,testing_069.png,Daun Salam Rusak,Daun Leci Rusak BG,99.95%
+1170,testing_070.png,Daun Salam Rusak,Daun Leci Rusak BG,99.97%
+1171,testing_071.png,Daun Salam Rusak,Daun Leci Rusak BG,99.97%
+1172,testing_072.png,Daun Salam Rusak,Daun Leci Rusak BG,99.99%
+1173,testing_073.png,Daun Salam Rusak,Daun Leci Rusak BG,99.88%
+1174,testing_074.png,Daun Salam Rusak,Daun Leci Rusak BG,99.94%
+1175,testing_075.png,Daun Salam Rusak,Daun Leci Rusak BG,98.43%
+1176,testing_076.png,Daun Salam Rusak,Daun Leci Rusak BG,99.33%
+1177,testing_077.png,Daun Salam Rusak,Daun Alpukat Rusak NoBG,68.86%
+1178,testing_078.png,Daun Salam Rusak,Daun Leci NoBG,49.39%
+1179,testing_079.png,Daun Salam Rusak,Daun Leci NoBG,44.90%
+1180,testing_080.png,Daun Salam Rusak,Daun Leci Rusak BG,80.50%
+1181,testing_081.png,Daun Salam Rusak,Daun Leci Rusak BG,73.44%
+1182,testing_082.png,Daun Salam Rusak,Daun Leci Rusak BG,78.85%
+1183,testing_083.png,Daun Salam Rusak,Daun Leci Rusak BG,85.45%
+1184,testing_084.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.43%
+1185,testing_085.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.90%
+1186,testing_086.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.85%
+1187,testing_087.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.73%
+1188,testing_088.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.29%
+1189,testing_089.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.62%
+1190,testing_090.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.98%
+1191,testing_091.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.04%
+1192,testing_092.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,98.30%
+1193,testing_093.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.20%
+1194,testing_094.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.11%
+1195,testing_095.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.50%
+1196,testing_096.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.76%
+1197,testing_097.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,99.22%
+1198,testing_098.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,87.21%
+1199,testing_099.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,77.28%
+1200,testing_100.jpg,Daun Salam Rusak,Daun Alpukat Rusak NoBG,84.76%
+1201,testing_001.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.83%
+1202,testing_002.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.99%
+1203,testing_003.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.96%
+1204,testing_004.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.95%
+1205,testing_005.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.97%
+1206,testing_006.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.85%
+1207,testing_007.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.84%
+1208,testing_008.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1209,testing_009.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.75%
+1210,testing_010.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.86%
+1211,testing_011.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.99%
+1212,testing_012.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.89%
+1213,testing_013.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.90%
+1214,testing_014.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.97%
+1215,testing_015.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.86%
+1216,testing_016.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.96%
+1217,testing_017.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.92%
+1218,testing_018.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,97.94%
+1219,testing_019.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.92%
+1220,testing_020.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,98.06%
+1221,testing_021.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1222,testing_022.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.99%
+1223,testing_023.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1224,testing_024.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,84.76%
+1225,testing_025.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1226,testing_026.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.83%
+1227,testing_027.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1228,testing_028.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1229,testing_029.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1230,testing_030.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.85%
+1231,testing_031.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1232,testing_032.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1233,testing_033.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.12%
+1234,testing_034.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.75%
+1235,testing_035.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,98.45%
+1236,testing_036.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,96.83%
+1237,testing_037.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.90%
+1238,testing_038.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,96.85%
+1239,testing_039.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1240,testing_040.jpg,Daun Sirsak,Daun Leci Rusak BG,99.84%
+1241,testing_041.jpg,Daun Sirsak,Daun Leci Rusak BG,92.41%
+1242,testing_042.jpg,Daun Sirsak,Daun Leci Rusak BG,99.86%
+1243,testing_043.jpg,Daun Sirsak,Daun Leci Rusak BG,97.51%
+1244,testing_044.jpg,Daun Sirsak,Daun Leci Rusak BG,87.97%
+1245,testing_045.jpg,Daun Sirsak,Daun Leci Rusak BG,97.91%
+1246,testing_046.jpg,Daun Sirsak,Daun Leci Rusak BG,93.60%
+1247,testing_047.jpg,Daun Sirsak,Daun Leci Rusak BG,93.42%
+1248,testing_048.jpg,Daun Sirsak,Daun Leci Rusak BG,97.56%
+1249,testing_049.jpg,Daun Sirsak,Daun Leci Rusak BG,99.95%
+1250,testing_050.jpg,Daun Sirsak,Daun Leci Rusak BG,99.93%
+1251,testing_051.jpg,Daun Sirsak,Daun Leci Rusak BG,99.91%
+1252,testing_052.jpg,Daun Sirsak,Daun Leci Rusak BG,97.58%
+1253,testing_053.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1254,testing_054.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1255,testing_055.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1256,testing_056.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.88%
+1257,testing_057.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.79%
+1258,testing_058.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,80.94%
+1259,testing_059.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.08%
+1260,testing_060.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,89.02%
+1261,testing_061.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,99.93%
+1262,testing_062.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1263,testing_063.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1264,testing_064.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1265,testing_065.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,94.57%
+1266,testing_066.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1267,testing_067.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1268,testing_068.jpg,Daun Sirsak,Daun Alpukat Rusak NoBG,100.00%
+1269,testing_069.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.57%
+1270,testing_070.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.69%
+1271,testing_071.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.94%
+1272,testing_072.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.97%
+1273,testing_073.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.95%
+1274,testing_074.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.90%
+1275,testing_075.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.90%
+1276,testing_076.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.95%
+1277,testing_077.png,Daun Sirsak,Daun Alpukat Rusak NoBG,98.89%
+1278,testing_078.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.58%
+1279,testing_079.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.85%
+1280,testing_080.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.66%
+1281,testing_081.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.97%
+1282,testing_082.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.97%
+1283,testing_083.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.98%
+1284,testing_084.png,Daun Sirsak,Daun Alpukat Rusak NoBG,99.91%
+1285,testing_085.jpg,Daun Sirsak,Daun Leci NoBG,97.52%
+1286,testing_086.jpg,Daun Sirsak,Daun Leci NoBG,97.74%
+1287,testing_087.jpg,Daun Sirsak,Daun Leci NoBG,98.10%
+1288,testing_088.jpg,Daun Sirsak,Daun Leci NoBG,95.18%
+1289,testing_089.jpg,Daun Sirsak,Daun Leci NoBG,97.69%
+1290,testing_090.jpg,Daun Sirsak,Daun Leci NoBG,95.68%
+1291,testing_091.jpg,Daun Sirsak,Daun Leci NoBG,99.79%
+1292,testing_092.jpg,Daun Sirsak,Daun Leci NoBG,96.87%
+1293,testing_093.jpg,Daun Sirsak,Daun Leci NoBG,99.34%
+1294,testing_094.jpg,Daun Sirsak,Daun Leci NoBG,98.80%
+1295,testing_095.jpg,Daun Sirsak,Daun Leci NoBG,99.91%
+1296,testing_096.jpg,Daun Sirsak,Daun Leci NoBG,99.90%
+1297,testing_097.jpg,Daun Sirsak,Daun Leci NoBG,99.67%
+1298,testing_098.jpg,Daun Sirsak,Daun Leci NoBG,83.48%
+1299,testing_099.jpg,Daun Sirsak,Daun Leci NoBG,95.27%
+1300,testing_100.jpg,Daun Sirsak,Daun Leci NoBG,97.66%
+1301,testing_001.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.51%
+1302,testing_002.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,97.91%
+1303,testing_003.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,90.35%
+1304,testing_004.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,59.17%
+1305,testing_005.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,90.73%
+1306,testing_006.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.51%
+1307,testing_007.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1308,testing_008.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1309,testing_009.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1310,testing_010.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.96%
+1311,testing_011.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1312,testing_012.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1313,testing_013.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1314,testing_014.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,90.73%
+1315,testing_015.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,97.81%
+1316,testing_016.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,78.53%
+1317,testing_017.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,98.73%
+1318,testing_018.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1319,testing_019.jpg,Daun Sirsak Rusak,Daun Leci NoBG,67.62%
+1320,testing_020.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.19%
+1321,testing_021.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1322,testing_022.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1323,testing_023.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.91%
+1324,testing_024.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1325,testing_025.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.43%
+1326,testing_026.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,95.75%
+1327,testing_027.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.93%
+1328,testing_028.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.61%
+1329,testing_029.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1330,testing_030.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.95%
+1331,testing_031.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.90%
+1332,testing_032.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,98.39%
+1333,testing_033.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.55%
+1334,testing_034.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.90%
+1335,testing_035.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,97.82%
+1336,testing_036.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,96.15%
+1337,testing_037.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.72%
+1338,testing_038.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,56.29%
+1339,testing_039.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,86.37%
+1340,testing_040.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,97.49%
+1341,testing_041.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,98.55%
+1342,testing_042.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,87.34%
+1343,testing_043.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.56%
+1344,testing_044.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,97.51%
+1345,testing_045.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.25%
+1346,testing_046.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.90%
+1347,testing_047.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,96.51%
+1348,testing_048.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.25%
+1349,testing_049.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,81.10%
+1350,testing_050.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,99.88%
+1351,testing_051.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,92.56%
+1352,testing_052.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,92.96%
+1353,testing_053.jpg,Daun Sirsak Rusak,Daun Leci Rusak BG,98.86%
+1354,testing_054.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1355,testing_055.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.16%
+1356,testing_056.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,96.15%
+1357,testing_057.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,95.61%
+1358,testing_058.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.16%
+1359,testing_059.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,96.39%
+1360,testing_060.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.72%
+1361,testing_061.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.88%
+1362,testing_062.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.44%
+1363,testing_063.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.86%
+1364,testing_064.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.87%
+1365,testing_065.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1366,testing_066.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.98%
+1367,testing_067.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.89%
+1368,testing_068.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.77%
+1369,testing_069.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.89%
+1370,testing_070.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.97%
+1371,testing_071.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1372,testing_072.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,95.88%
+1373,testing_073.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1374,testing_074.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.87%
+1375,testing_075.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1376,testing_076.jpg,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1377,testing_077.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,92.20%
+1378,testing_078.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,96.06%
+1379,testing_079.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.77%
+1380,testing_080.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.17%
+1381,testing_081.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.81%
+1382,testing_082.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.56%
+1383,testing_083.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.86%
+1384,testing_084.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,98.59%
+1385,testing_085.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,98.86%
+1386,testing_086.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1387,testing_087.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1388,testing_088.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1389,testing_089.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1390,testing_090.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1391,testing_091.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1392,testing_092.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1393,testing_093.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1394,testing_094.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1395,testing_095.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,100.00%
+1396,testing_096.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.99%
+1397,testing_097.png,Daun Sirsak Rusak,Daun Alpukat Rusak NoBG,99.97%
+1398,testing_098.jpg,Daun Sirsak Rusak,Daun Leci NoBG,99.68%
+1399,testing_099.jpg,Daun Sirsak Rusak,Daun Leci NoBG,89.59%
+1400,testing_100.jpg,Daun Sirsak Rusak,Daun Leci NoBG,99.03%
+1401,testing_001.jpg,Daun Srikaya,Daun Leci NoBG,99.89%
+1402,testing_002.jpg,Daun Srikaya,Daun Leci NoBG,98.06%
+1403,testing_003.jpg,Daun Srikaya,Daun Leci NoBG,99.55%
+1404,testing_004.jpg,Daun Srikaya,Daun Leci NoBG,100.00%
+1405,testing_005.jpg,Daun Srikaya,Daun Leci NoBG,99.55%
+1406,testing_006.jpg,Daun Srikaya,Daun Leci NoBG,93.34%
+1407,testing_007.jpg,Daun Srikaya,Daun Leci NoBG,98.06%
+1408,testing_008.jpg,Daun Srikaya,Daun Leci NoBG,98.80%
+1409,testing_009.jpg,Daun Srikaya,Daun Leci NoBG,99.72%
+1410,testing_010.jpg,Daun Srikaya,Daun Leci NoBG,95.19%
+1411,testing_011.jpg,Daun Srikaya,Daun Leci NoBG,100.00%
+1412,testing_012.jpg,Daun Srikaya,Daun Leci NoBG,99.22%
+1413,testing_013.jpg,Daun Srikaya,Daun Leci NoBG,53.72%
+1414,testing_014.jpg,Daun Srikaya,Daun Leci NoBG,96.33%
+1415,testing_015.jpg,Daun Srikaya,Daun Leci NoBG,99.07%
+1416,testing_016.jpg,Daun Srikaya,Daun Leci NoBG,99.88%
+1417,testing_017.jpg,Daun Srikaya,Daun Leci NoBG,99.24%
+1418,testing_018.jpg,Daun Srikaya,Daun Leci NoBG,96.08%
+1419,testing_019.jpg,Daun Srikaya,Daun Leci NoBG,100.00%
+1420,testing_020.jpg,Daun Srikaya,Daun Leci NoBG,77.28%
+1421,testing_021.jpg,Daun Srikaya,Daun Leci NoBG,98.78%
+1422,testing_022.jpg,Daun Srikaya,Daun Leci NoBG,97.97%
+1423,testing_023.jpg,Daun Srikaya,Daun Leci NoBG,100.00%
+1424,testing_024.jpg,Daun Srikaya,Daun Leci NoBG,98.55%
+1425,testing_025.jpg,Daun Srikaya,Daun Leci NoBG,98.44%
+1426,testing_026.jpg,Daun Srikaya,Daun Leci NoBG,99.77%
+1427,testing_027.jpg,Daun Srikaya,Daun Leci NoBG,99.26%
+1428,testing_028.jpg,Daun Srikaya,Daun Leci NoBG,99.46%
+1429,testing_029.jpg,Daun Srikaya,Daun Leci NoBG,99.88%
+1430,testing_030.jpg,Daun Srikaya,Daun Leci NoBG,98.17%
+1431,testing_031.jpg,Daun Srikaya,Daun Leci NoBG,99.71%
+1432,testing_032.jpg,Daun Srikaya,Daun Leci NoBG,83.43%
+1433,testing_033.jpg,Daun Srikaya,Daun Leci NoBG,84.35%
+1434,testing_034.jpg,Daun Srikaya,Daun Leci NoBG,91.24%
+1435,testing_035.jpg,Daun Srikaya,Daun Leci Rusak BG,62.43%
+1436,testing_036.jpg,Daun Srikaya,Daun Leci NoBG,93.18%
+1437,testing_037.jpg,Daun Srikaya,Daun Leci NoBG,94.00%
+1438,testing_038.jpg,Daun Srikaya,Daun Leci NoBG,85.82%
+1439,testing_039.jpg,Daun Srikaya,Daun Leci NoBG,99.76%
+1440,testing_040.jpg,Daun Srikaya,Daun Leci NoBG,99.28%
+1441,testing_041.jpg,Daun Srikaya,Daun Leci NoBG,99.55%
+1442,testing_042.jpg,Daun Srikaya,Daun Leci NoBG,98.55%
+1443,testing_043.jpg,Daun Srikaya,Daun Leci NoBG,94.99%
+1444,testing_044.jpg,Daun Srikaya,Daun Leci NoBG,99.20%
+1445,testing_045.jpg,Daun Srikaya,Daun Leci NoBG,82.91%
+1446,testing_046.jpg,Daun Srikaya,Daun Leci Rusak BG,65.95%
+1447,testing_047.jpg,Daun Srikaya,Daun Leci NoBG,96.29%
+1448,testing_048.jpg,Daun Srikaya,Daun Leci NoBG,97.87%
+1449,testing_049.jpg,Daun Srikaya,Daun Leci NoBG,94.65%
+1450,testing_050.jpg,Daun Srikaya,Daun Leci NoBG,98.94%
+1451,testing_051.jpg,Daun Srikaya,Daun Leci NoBG,99.85%
+1452,testing_052.jpg,Daun Srikaya,Daun Leci NoBG,99.36%
+1453,testing_053.jpg,Daun Srikaya,Daun Leci NoBG,93.80%
+1454,testing_054.jpg,Daun Srikaya,Daun Leci NoBG,99.56%
+1455,testing_055.jpg,Daun Srikaya,Daun Leci NoBG,98.38%
+1456,testing_056.jpg,Daun Srikaya,Daun Leci NoBG,99.37%
+1457,testing_057.jpg,Daun Srikaya,Daun Leci NoBG,89.54%
+1458,testing_058.jpg,Daun Srikaya,Daun Leci NoBG,88.37%
+1459,testing_059.jpg,Daun Srikaya,Daun Leci NoBG,98.76%
+1460,testing_060.jpg,Daun Srikaya,Daun Leci NoBG,87.83%
+1461,testing_061.jpg,Daun Srikaya,Daun Leci NoBG,97.36%
+1462,testing_062.jpg,Daun Srikaya,Daun Leci NoBG,97.34%
+1463,testing_063.jpg,Daun Srikaya,Daun Leci NoBG,98.32%
+1464,testing_064.jpg,Daun Srikaya,Daun Leci NoBG,96.98%
+1465,testing_065.jpg,Daun Srikaya,Daun Leci NoBG,99.38%
+1466,testing_066.jpg,Daun Srikaya,Daun Leci NoBG,98.47%
+1467,testing_067.jpg,Daun Srikaya,Daun Leci NoBG,99.94%
+1468,testing_068.jpg,Daun Srikaya,Daun Leci NoBG,99.13%
+1469,testing_069.png,Daun Srikaya,Daun Alpukat Rusak NoBG,94.36%
+1470,testing_070.png,Daun Srikaya,Daun Alpukat Rusak NoBG,79.10%
+1471,testing_071.png,Daun Srikaya,Daun Leci NoBG,99.34%
+1472,testing_072.png,Daun Srikaya,Daun Leci NoBG,99.96%
+1473,testing_073.png,Daun Srikaya,Daun Leci NoBG,94.90%
+1474,testing_074.png,Daun Srikaya,Daun Leci NoBG,97.09%
+1475,testing_075.png,Daun Srikaya,Daun Leci NoBG,99.34%
+1476,testing_076.png,Daun Srikaya,Daun Leci NoBG,98.60%
+1477,testing_077.png,Daun Srikaya,Daun Leci NoBG,90.71%
+1478,testing_078.png,Daun Srikaya,Daun Leci NoBG,95.71%
+1479,testing_079.png,Daun Srikaya,Daun Leci NoBG,82.74%
+1480,testing_080.png,Daun Srikaya,Daun Leci NoBG,91.67%
+1481,testing_081.png,Daun Srikaya,Daun Leci NoBG,97.99%
+1482,testing_082.png,Daun Srikaya,Daun Leci NoBG,99.69%
+1483,testing_083.png,Daun Srikaya,Daun Leci NoBG,99.99%
+1484,testing_084.png,Daun Srikaya,Daun Leci NoBG,99.99%
+1485,testing_085.png,Daun Srikaya,Daun Leci NoBG,85.66%
+1486,testing_086.jpg,Daun Srikaya,Daun Leci NoBG,60.28%
+1487,testing_087.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,96.23%
+1488,testing_088.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,70.12%
+1489,testing_089.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,91.96%
+1490,testing_090.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,96.37%
+1491,testing_091.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,97.47%
+1492,testing_092.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,89.47%
+1493,testing_093.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,93.68%
+1494,testing_094.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,62.93%
+1495,testing_095.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,90.98%
+1496,testing_096.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,66.50%
+1497,testing_097.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,99.89%
+1498,testing_098.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,98.67%
+1499,testing_099.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,99.47%
+1500,testing_100.jpg,Daun Srikaya,Daun Alpukat Rusak NoBG,99.21%
+1501,testing_001.jpg,Daun Srikaya Rusak,Daun Leci NoBG,92.75%
+1502,testing_002.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,92.28%
+1503,testing_003.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.88%
+1504,testing_004.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.94%
+1505,testing_005.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,93.62%
+1506,testing_006.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,77.86%
+1507,testing_007.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.94%
+1508,testing_008.jpg,Daun Srikaya Rusak,Daun Leci NoBG,87.87%
+1509,testing_009.jpg,Daun Srikaya Rusak,Daun Leci NoBG,97.43%
+1510,testing_010.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.99%
+1511,testing_011.jpg,Daun Srikaya Rusak,Daun Leci NoBG,86.97%
+1512,testing_012.jpg,Daun Srikaya Rusak,Daun Leci NoBG,97.40%
+1513,testing_013.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.32%
+1514,testing_014.jpg,Daun Srikaya Rusak,Daun Leci NoBG,78.15%
+1515,testing_015.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,59.77%
+1516,testing_016.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,82.43%
+1517,testing_017.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.99%
+1518,testing_018.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.68%
+1519,testing_019.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.95%
+1520,testing_020.jpg,Daun Srikaya Rusak,Daun Leci NoBG,98.93%
+1521,testing_021.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,71.04%
+1522,testing_022.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,92.88%
+1523,testing_023.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,74.37%
+1524,testing_024.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,69.66%
+1525,testing_025.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,84.49%
+1526,testing_026.jpg,Daun Srikaya Rusak,Daun Leci NoBG,88.44%
+1527,testing_027.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,76.72%
+1528,testing_028.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,98.76%
+1529,testing_029.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,56.03%
+1530,testing_030.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,72.75%
+1531,testing_031.jpg,Daun Srikaya Rusak,Daun Leci NoBG,95.30%
+1532,testing_032.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,70.91%
+1533,testing_033.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,50.33%
+1534,testing_034.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.94%
+1535,testing_035.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,91.80%
+1536,testing_036.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,85.25%
+1537,testing_037.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,85.96%
+1538,testing_038.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.60%
+1539,testing_039.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,65.97%
+1540,testing_040.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.95%
+1541,testing_041.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,85.92%
+1542,testing_042.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.90%
+1543,testing_043.jpg,Daun Srikaya Rusak,Daun Leci NoBG,96.79%
+1544,testing_044.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,57.81%
+1545,testing_045.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,62.01%
+1546,testing_046.jpg,Daun Srikaya Rusak,Daun Leci NoBG,99.90%
+1547,testing_047.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,84.55%
+1548,testing_048.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,61.99%
+1549,testing_049.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,70.11%
+1550,testing_050.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,63.75%
+1551,testing_051.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,55.57%
+1552,testing_052.jpg,Daun Srikaya Rusak,Daun Leci NoBG,89.82%
+1553,testing_053.jpg,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,84.49%
+1554,testing_054.jpg,Daun Srikaya Rusak,Daun Leci NoBG,45.29%
+1555,testing_055.jpg,Daun Srikaya Rusak,Daun Leci NoBG,96.72%
+1556,testing_056.jpg,Daun Srikaya Rusak,Daun Leci NoBG,57.67%
+1557,testing_057.jpg,Daun Srikaya Rusak,Daun Leci NoBG,97.52%
+1558,testing_058.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,48.53%
+1559,testing_059.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,62.51%
+1560,testing_060.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,91.59%
+1561,testing_061.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,73.00%
+1562,testing_062.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,81.34%
+1563,testing_063.png,Daun Srikaya Rusak,Daun Leci NoBG,99.78%
+1564,testing_064.png,Daun Srikaya Rusak,Daun Leci NoBG,99.38%
+1565,testing_065.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,52.75%
+1566,testing_066.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,79.18%
+1567,testing_067.png,Daun Srikaya Rusak,Daun Leci NoBG,99.82%
+1568,testing_068.png,Daun Srikaya Rusak,Daun Alpukat Rusak NoBG,50.08%
+1569,testing_069.png,Daun Srikaya Rusak,Daun Leci NoBG,99.69%
+1570,testing_070.png,Daun Srikaya Rusak,Daun Leci NoBG,99.98%
+1571,testing_071.png,Daun Srikaya Rusak,Daun Leci NoBG,99.99%
+1572,testing_072.png,Daun Srikaya Rusak,Daun Leci NoBG,97.74%
+1573,testing_073.png,Daun Srikaya Rusak,Daun Leci NoBG,99.98%
+1574,testing_074.png,Daun Srikaya Rusak,Daun Leci NoBG,91.81%
+1575,testing_075.png,Daun Srikaya Rusak,Daun Leci NoBG,99.00%
+1576,testing_076.png,Daun Srikaya Rusak,Daun Leci NoBG,85.88%
+1577,testing_077.png,Daun Srikaya Rusak,Daun Leci NoBG,95.44%
+1578,testing_078.png,Daun Srikaya Rusak,Daun Leci NoBG,97.90%
+1579,testing_079.png,Daun Srikaya Rusak,Daun Leci NoBG,99.19%
+1580,testing_080.png,Daun Srikaya Rusak,Daun Leci NoBG,99.95%
+1581,testing_081.png,Daun Srikaya Rusak,Daun Leci NoBG,99.20%
+1582,testing_082.png,Daun Srikaya Rusak,Daun Leci NoBG,99.63%
+1583,testing_083.jpg,Daun Srikaya Rusak,Daun Leci NoBG,45.83%
+1584,testing_084.jpg,Daun Srikaya Rusak,Daun Leci NoBG,95.86%
+1585,testing_085.jpg,Daun Srikaya Rusak,Daun Leci NoBG,91.35%
+1586,testing_086.jpg,Daun Srikaya Rusak,Daun Leci NoBG,75.96%
+1587,testing_087.jpg,Daun Srikaya Rusak,Daun Leci NoBG,93.47%
+1588,testing_088.jpg,Daun Srikaya Rusak,Daun Leci NoBG,51.61%
+1589,testing_089.jpg,Daun Srikaya Rusak,Daun Leci NoBG,77.13%
+1590,testing_090.jpg,Daun Srikaya Rusak,Daun Leci NoBG,65.48%
+1591,testing_091.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,57.44%
+1592,testing_092.jpg,Daun Srikaya Rusak,Daun Leci NoBG,55.69%
+1593,testing_093.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,47.25%
+1594,testing_094.jpg,Daun Srikaya Rusak,Daun Leci NoBG,64.23%
+1595,testing_095.jpg,Daun Srikaya Rusak,Daun Leci NoBG,80.49%
+1596,testing_096.jpg,Daun Srikaya Rusak,Daun Leci NoBG,68.39%
+1597,testing_097.jpg,Daun Srikaya Rusak,Daun Leci NoBG,49.90%
+1598,testing_098.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,73.26%
+1599,testing_099.jpg,Daun Srikaya Rusak,Daun Leci Rusak BG,83.82%
+1600,testing_100.jpg,Daun Srikaya Rusak,Daun Leci NoBG,86.37%

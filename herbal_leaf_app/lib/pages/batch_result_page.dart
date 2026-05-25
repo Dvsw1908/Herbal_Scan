@@ -1,17 +1,36 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import '../models/prediction.dart';
+import '../services/csv_export_service.dart';
 import 'result_page.dart';
 
-class BatchResultPage extends StatelessWidget {
+class BatchResultPage extends StatefulWidget {
   final List<Prediction> results;
+  final String actualClass;
 
-  const BatchResultPage({super.key, required this.results});
+  const BatchResultPage({
+    super.key,
+    required this.results,
+    this.actualClass = '',
+  });
+
+  @override
+  State<BatchResultPage> createState() => _BatchResultPageState();
+}
+
+class _BatchResultPageState extends State<BatchResultPage> {
+  late String _actualClass;
+
+  @override
+  void initState() {
+    super.initState();
+    _actualClass = widget.actualClass.trim();
+  }
 
   // Group by speciesName, count & average confidence
   List<_SpeciesStat> _buildSpeciesStats() {
     final Map<String, List<double>> map = {};
-    for (final p in results) {
+    for (final p in widget.results) {
       final key = p.isUnrecognized ? 'Tidak Dikenali' : p.speciesName;
       map.putIfAbsent(key, () => []).add(p.confidenceScore);
     }
@@ -26,11 +45,48 @@ class BatchResultPage extends StatelessWidget {
       ..sort((a, b) => b.count.compareTo(a.count));
   }
 
+  Future<void> _editActualClass() async {
+    final value = await showActualClassDialog(context, initialValue: _actualClass);
+    if (value == null) return;
+    setState(() => _actualClass = value);
+  }
+
+  Future<void> _downloadCsv() async {
+    if (_actualClass.trim().isEmpty) {
+      await _editActualClass();
+      if (_actualClass.trim().isEmpty) return;
+    }
+
+    try {
+      final file = await CsvExportService.exportBatchPredictions(
+        results: widget.results,
+        actualClass: _actualClass.trim(),
+      );
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('CSV berhasil disimpan: ${file.path}'),
+          backgroundColor: const Color(0xFF1F6F43),
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Gagal menyimpan CSV: $e'),
+          backgroundColor: Colors.red.shade700,
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    final total = results.length;
-    final rusak = results.where((p) => p.isRusak).length;
-    final unrecognized = results.where((p) => p.isUnrecognized).length;
+    final total = widget.results.length;
+    final rusak = widget.results.where((p) => p.isRusak).length;
+    final unrecognized = widget.results.where((p) => p.isUnrecognized).length;
     final ok = total - rusak - unrecognized;
     final speciesStats = _buildSpeciesStats();
 
@@ -44,6 +100,16 @@ class BatchResultPage extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
               child: _SummaryRow(
                   total: total, ok: ok, rusak: rusak, unrecognized: unrecognized),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+              child: _ExportCard(
+                actualClass: _actualClass,
+                onEditActualClass: _editActualClass,
+                onDownloadCsv: _downloadCsv,
+              ),
             ),
           ),
           SliverToBoxAdapter(
@@ -70,9 +136,9 @@ class BatchResultPage extends StatelessWidget {
               delegate: SliverChildBuilderDelegate(
                 (context, i) => _ResultTile(
                   index: i + 1,
-                  prediction: results[i],
+                  prediction: widget.results[i],
                 ),
-                childCount: results.length,
+                childCount: widget.results.length,
               ),
             ),
           ),
@@ -87,10 +153,15 @@ class BatchResultPage extends StatelessWidget {
       backgroundColor: const Color(0xFF1B5E38),
       foregroundColor: Colors.white,
       title: Text(
-        'Hasil Batch (${results.length} foto)',
+        'Hasil Batch (${widget.results.length} foto)',
         style: const TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
       ),
       actions: [
+        IconButton(
+          tooltip: 'Download CSV',
+          onPressed: _downloadCsv,
+          icon: const Icon(Icons.download_rounded, color: Colors.white),
+        ),
         TextButton.icon(
           onPressed: () => Navigator.pop(context),
           icon: const Icon(Icons.check_rounded, color: Colors.white, size: 18),
@@ -170,6 +241,138 @@ class _SummaryChip extends StatelessWidget {
                     fontWeight: FontWeight.w600)),
           ],
         ),
+      ),
+    );
+  }
+}
+
+Future<String?> showActualClassDialog(
+  BuildContext context, {
+  String initialValue = '',
+}) {
+  final controller = TextEditingController(text: initialValue);
+  return showDialog<String>(
+    context: context,
+    barrierDismissible: false,
+    builder: (ctx) => AlertDialog(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
+      title: const Text('Kelas Daun Aktual'),
+      content: TextField(
+        controller: controller,
+        autofocus: true,
+        textInputAction: TextInputAction.done,
+        decoration: const InputDecoration(
+          labelText: 'Contoh: Daun Alpukat',
+          border: OutlineInputBorder(),
+        ),
+        onSubmitted: (_) {
+          final value = controller.text.trim();
+          if (value.isNotEmpty) Navigator.pop(ctx, value);
+        },
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.pop(ctx, initialValue.trim()),
+          child: const Text('Lewati'),
+        ),
+        FilledButton(
+          onPressed: () {
+            final value = controller.text.trim();
+            if (value.isNotEmpty) Navigator.pop(ctx, value);
+          },
+          child: const Text('Simpan'),
+        ),
+      ],
+    ),
+  );
+}
+
+class _ExportCard extends StatelessWidget {
+  final String actualClass;
+  final VoidCallback onEditActualClass;
+  final VoidCallback onDownloadCsv;
+
+  const _ExportCard({
+    required this.actualClass,
+    required this.onEditActualClass,
+    required this.onDownloadCsv,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final hasActualClass = actualClass.trim().isNotEmpty;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+              color: Colors.black.withValues(alpha: 0.05),
+              blurRadius: 12,
+              offset: const Offset(0, 4)),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(9),
+                decoration: BoxDecoration(
+                  color: const Color(0xFFEAF3EC),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(Icons.table_chart_rounded,
+                    color: Color(0xFF1F6F43), size: 20),
+              ),
+              const SizedBox(width: 12),
+              const Expanded(
+                child: Text(
+                  'Data CSV',
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF1A1A2E)),
+                ),
+              ),
+              IconButton(
+                tooltip: 'Ubah kelas aktual',
+                onPressed: onEditActualClass,
+                icon: const Icon(Icons.edit_rounded, size: 20),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Text(
+            hasActualClass
+                ? 'Kelas daun aktual: $actualClass'
+                : 'Kelas daun aktual belum diisi.',
+            style: TextStyle(
+                fontSize: 13,
+                color: hasActualClass
+                    ? const Color(0xFF1F6F43)
+                    : Colors.orange.shade800,
+                fontWeight: FontWeight.w600),
+          ),
+          const SizedBox(height: 14),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+              onPressed: onDownloadCsv,
+              icon: const Icon(Icons.download_rounded, size: 18),
+              label: const Text('Download CSV'),
+              style: FilledButton.styleFrom(
+                backgroundColor: const Color(0xFF1F6F43),
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14)),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
