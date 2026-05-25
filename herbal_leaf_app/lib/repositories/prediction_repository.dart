@@ -22,6 +22,19 @@ class PredictionRepository {
     );
   }
 
+  Future<List<Prediction>> predictBatch(
+    List<File> files,
+    void Function(int done, int total) onProgress,
+  ) async {
+    final results = <Prediction>[];
+    for (int i = 0; i < files.length; i++) {
+      final p = await predict(files[i]);
+      results.add(p);
+      onProgress(i + 1, files.length);
+    }
+    return results;
+  }
+
   Future<List<Prediction>> getHistory() => _db.getAllPredictions();
 
   Future<void> deletePrediction(int id) => _db.deletePrediction(id);

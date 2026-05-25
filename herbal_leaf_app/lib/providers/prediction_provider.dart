@@ -31,7 +31,7 @@ class PredictionProvider extends ChangeNotifier {
       _state = PredictionState.success;
       await loadHistory();
     } catch (e) {
-      _errorMessage = 'Gagal menganalisis gambar. Coba lagi.';
+      _errorMessage = e.toString();
       _state = PredictionState.error;
     }
 
@@ -55,6 +55,35 @@ class PredictionProvider extends ChangeNotifier {
     await _repo.clearHistory();
     _history = [];
     notifyListeners();
+  }
+
+  int _batchDone = 0;
+  int _batchTotal = 0;
+  int get batchDone => _batchDone;
+  int get batchTotal => _batchTotal;
+
+  Future<List<Prediction>> predictBatch(List<File> files) async {
+    _state = PredictionState.loading;
+    _batchDone = 0;
+    _batchTotal = files.length;
+    _errorMessage = null;
+    notifyListeners();
+
+    List<Prediction> results = [];
+    try {
+      results = await _repo.predictBatch(files, (done, total) {
+        _batchDone = done;
+        _batchTotal = total;
+        notifyListeners();
+      });
+      _state = PredictionState.success;
+      await loadHistory();
+    } catch (e) {
+      _errorMessage = e.toString();
+      _state = PredictionState.error;
+      notifyListeners();
+    }
+    return results;
   }
 
   void reset() {

@@ -16,7 +16,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data and Models
-data/
 testsprite_tests/
 
 # IDEs
@@ -32,4 +31,4 @@ build/
 .DS_Store
 
 skills-lock.json
-*claude.md
+claude.md

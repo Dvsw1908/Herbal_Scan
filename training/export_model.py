@@ -10,7 +10,7 @@ from torch.utils.mobile_optimizer import optimize_for_mobile
 from pathlib import Path
 
 BASE_DIR   = Path(__file__).resolve().parent.parent
-MODEL_IN   = BASE_DIR / "model" / "shufflenet_exp2_70.pth"
+MODEL_IN   = BASE_DIR / "model" / "shufflenet_exp2_80.pth"
 MODEL_OUT  = BASE_DIR / "herbal_leaf_app" / "assets" / "model" / "shufflenet_exp2.ptl"
 
 CLASS_NAMES = [
@@ -58,10 +58,9 @@ net.eval()
 print("Tracing model...")
 example = torch.rand(1, 3, 224, 224)
 traced = torch.jit.trace(net, example)
-optimized = optimize_for_mobile(traced)
 
 MODEL_OUT.parent.mkdir(parents=True, exist_ok=True)
-optimized._save_for_lite_interpreter(str(MODEL_OUT))
+traced.save(str(MODEL_OUT))
 
 size_mb = MODEL_OUT.stat().st_size / 1024 / 1024
 print(f"Saved: {MODEL_OUT}")

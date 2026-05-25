@@ -59,6 +59,7 @@ class ModelService {
       _imgSize,
       _numClasses,
       labelPath: _labelAsset,
+      ensureMatchingNumberOfClasses: false,
     );
   }
 

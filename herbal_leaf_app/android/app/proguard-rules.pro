@@ -1,0 +1,6 @@
+-keep class org.pytorch.** { *; }
+-keep class com.facebook.jni.** { *; }
+-keep class com.facebook.soloader.** { *; }
+-dontwarn javax.annotation.**
+-dontwarn javax.annotation.Nullable
+-dontwarn javax.annotation.concurrent.**

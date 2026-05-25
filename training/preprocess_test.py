@@ -1,7 +1,7 @@
 import os
 import cv2
 import time
-from rembg import remove
+# from rembg import remove
 
 # ============================================================
 # PREPROCESSING DATA TESTING
@@ -61,20 +61,20 @@ def process_classes(input_dir, output_dir, process_fn, step_label):
     return total, failed
 
 
-# ────────────────────────────────────────────────────────────
-# STEP 1 — Remove Background
-# ────────────────────────────────────────────────────────────
-print("=" * 55)
-print("STEP 1: Remove Background")
-print(f"  Input : {INPUT_DIR}")
-print(f"  Output: {NOBG_DIR}")
-print("=" * 55)
+# # ────────────────────────────────────────────────────────────
+# # STEP 1 — Remove Background
+# # ────────────────────────────────────────────────────────────
+# print("=" * 55)
+# print("STEP 1: Remove Background")
+# print(f"  Input : {INPUT_DIR}")
+# print(f"  Output: {NOBG_DIR}")
+# print("=" * 55)
 
-t0 = time.time()
-total1, fail1 = process_classes(INPUT_DIR, NOBG_DIR, lambda img: remove(img), "RemBG")
-elapsed1 = time.time() - t0
+# t0 = time.time()
+# total1, fail1 = process_classes(INPUT_DIR, NOBG_DIR, lambda img: remove(img), "RemBG")
+# elapsed1 = time.time() - t0
 
-print(f"\nSTEP 1 selesai — {total1} gambar ({fail1} gagal) | {format_time(elapsed1)}\n")
+# print(f"\nSTEP 1 selesai — {total1} gambar ({fail1} gagal) | {format_time(elapsed1)}\n")
 
 # ────────────────────────────────────────────────────────────
 # STEP 2 — Resize

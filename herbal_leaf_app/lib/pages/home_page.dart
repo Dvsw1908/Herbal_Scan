@@ -8,6 +8,7 @@ import '../data/plant_data.dart';
 import '../widgets/stat_card.dart';
 import '../widgets/plant_card.dart';
 import 'result_page.dart';
+import 'batch_result_page.dart';
 import 'plant_detail_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -39,6 +40,43 @@ class _HomePageState extends State<HomePage>
   void dispose() {
     _pulseCtrl.dispose();
     super.dispose();
+  }
+
+  Future<void> _pickMultiAndPredict(BuildContext context) async {
+    final picker = ImagePicker();
+    final picked = await picker.pickMultiImage(imageQuality: 85, maxWidth: 1024);
+    if (picked.isEmpty) return;
+    if (!context.mounted) return;
+
+    final files = picked.map((x) => File(x.path)).toList();
+    final provider = context.read<PredictionProvider>();
+
+    // Show progress dialog
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => _BatchProgressDialog(provider: provider, total: files.length),
+    );
+
+    final results = await provider.predictBatch(files);
+
+    if (!context.mounted) return;
+    Navigator.pop(context); // close dialog
+
+    if (provider.state == PredictionState.error) {
+      _showErrorSnackbar(context, provider.errorMessage ?? 'Terjadi kesalahan.');
+      return;
+    }
+
+    if (results.length == 1) {
+      _showResult(context, results.first, files.first);
+      return;
+    }
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => BatchResultPage(results: results)),
+    );
   }
 
   Future<void> _pickAndPredict(BuildContext context, ImageSource source) async {
@@ -161,6 +199,23 @@ class _HomePageState extends State<HomePage>
                     ),
                   ],
                 ),
+                const SizedBox(height: 16),
+                Row(
+                  children: [
+                    Expanded(
+                      child: _SourceOption(
+                        icon: Icons.photo_library_rounded,
+                        label: 'Banyak Foto',
+                        sublabel: 'Batch dari galeri',
+                        color: const Color(0xFF6A1B9A),
+                        onTap: () {
+                          Navigator.pop(ctx);
+                          _pickMultiAndPredict(context);
+                        },
+                      ),
+                    ),
+                  ],
+                ),
                 const SizedBox(height: 36),
               ],
             ),
@@ -201,33 +256,36 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF0F7F4),
-      body: Consumer<PredictionProvider>(
-        builder: (context, provider, _) {
-          final isLoading = provider.state == PredictionState.loading;
-          return SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _HeroHeader(),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 32),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      _buildStatsRow(context, provider),
-                      const SizedBox(height: 24),
-                      _buildScanCard(context, isLoading),
-                      const SizedBox(height: 32),
-                      _buildSectionLabel(context),
-                      const SizedBox(height: 16),
-                      _buildPlantGrid(context),
-                    ],
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _HeroHeader(),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 20, 20, 32),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Consumer<PredictionProvider>(
+                    builder: (context, provider, _) =>
+                        _buildStatsRow(context, provider),
                   ),
-                ),
-              ],
+                  const SizedBox(height: 24),
+                  Consumer<PredictionProvider>(
+                    builder: (context, provider, _) => _buildScanCard(
+                      context,
+                      provider.state == PredictionState.loading,
+                    ),
+                  ),
+                  const SizedBox(height: 32),
+                  _buildSectionLabel(context),
+                  const SizedBox(height: 16),
+                  _buildPlantGrid(context),
+                ],
+              ),
             ),
-          );
-        },
+          ],
+        ),
       ),
     );
   }
@@ -629,6 +687,76 @@ class _SourceOption extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Batch progress dialog
+// ─────────────────────────────────────────────────────────────────────────────
+class _BatchProgressDialog extends StatelessWidget {
+  final PredictionProvider provider;
+  final int total;
+
+  const _BatchProgressDialog({required this.provider, required this.total});
+
+  @override
+  Widget build(BuildContext context) {
+    return PopScope(
+      canPop: false,
+      child: Dialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        child: Padding(
+          padding: const EdgeInsets.all(28),
+          child: ListenableBuilder(
+            listenable: provider,
+            builder: (_, _) {
+              final done = provider.batchDone;
+              final t = provider.batchTotal;
+              final progress = t == 0 ? 0.0 : done / t;
+              return Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(Icons.auto_awesome_rounded,
+                      color: Color(0xFF1F6F43), size: 40),
+                  const SizedBox(height: 16),
+                  const Text(
+                    'Memproses Gambar',
+                    style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF1A1A2E)),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    '$done dari $t gambar',
+                    style: const TextStyle(
+                        fontSize: 13, color: Color(0xFF6B7B8E)),
+                  ),
+                  const SizedBox(height: 20),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: LinearProgressIndicator(
+                      value: progress,
+                      minHeight: 10,
+                      backgroundColor: const Color(0xFFEAF3EC),
+                      valueColor: const AlwaysStoppedAnimation(Color(0xFF1F6F43)),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  Text(
+                    '${(progress * 100).toStringAsFixed(0)}%',
+                    style: const TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF1F6F43)),
+                  ),
+                ],
+              );
+            },
           ),
         ),
       ),
