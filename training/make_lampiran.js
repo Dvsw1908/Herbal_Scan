@@ -23,7 +23,9 @@ const CSV_PATH = process.env.CSV_PATH
   ? path.resolve(process.env.CSV_PATH)
   : chooseCsvPath();
 const IMAGE_DIR = path.join(ROOT_DIR, "data", "train_combined");
-const OUTPUT_DOCX = path.join(ROOT_DIR, "Lampiran_Hasil_Testing.docx");
+const OUTPUT_DOCX = process.env.OUTPUT_DOCX
+  ? path.resolve(process.env.OUTPUT_DOCX)
+  : path.join(ROOT_DIR, "Lampiran_Hasil_Testing.docx");
 const TITLE = "Lampiran 7 Hasil Data Testing Seluruh Kelas";
 const CSV_COLUMNS = [
   "No",
@@ -32,6 +34,7 @@ const CSV_COLUMNS = [
   "Prediksi Kelas Daun",
   "Confidence Score",
 ];
+const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".bmp", ".webp"]);
 
 function chooseCsvPath() {
   if (!fs.existsSync(FALLBACK_CSV_PATH)) return DEFAULT_CSV_PATH;
@@ -94,6 +97,26 @@ function normalizeKey(value) {
   return String(value).trim().toLowerCase();
 }
 
+function imageSortKey(fileName) {
+  const stem = path.parse(fileName).name;
+  const number = stem.match(/\d+$/);
+  return {
+    prefix: number ? stem.slice(0, -number[0].length) : stem,
+    number: number ? Number(number[0]) : 0,
+    name: fileName,
+  };
+}
+
+function compareImageNames(a, b) {
+  const keyA = imageSortKey(a);
+  const keyB = imageSortKey(b);
+  return (
+    keyA.prefix.localeCompare(keyB.prefix) ||
+    keyA.number - keyB.number ||
+    keyA.name.localeCompare(keyB.name)
+  );
+}
+
 function buildClassDirIndex(rootDir) {
   return Object.fromEntries(
     fs
@@ -103,14 +126,33 @@ function buildClassDirIndex(rootDir) {
   );
 }
 
-function findImagePath(row, classDirIndex) {
+function buildClassImageIndex(classDirIndex) {
+  return Object.fromEntries(
+    Object.entries(classDirIndex).map(([className, classDir]) => {
+      const images = fs
+        .readdirSync(classDir, { withFileTypes: true })
+        .filter((entry) => entry.isFile() && IMAGE_EXTENSIONS.has(path.extname(entry.name).toLowerCase()))
+        .map((entry) => path.join(classDir, entry.name))
+        .sort((a, b) => compareImageNames(path.basename(a), path.basename(b)));
+
+      return [className, images];
+    })
+  );
+}
+
+function findImagePath(row, classDirIndex, classImageIndex, classRowOffsets) {
   const actualClass = row["Kelas Daun"] || "";
   const fileName = row["Nama File"] || "";
-  const classDir = classDirIndex[normalizeKey(actualClass)];
+  const classKey = normalizeKey(actualClass);
+  const classDir = classDirIndex[classKey];
 
   if (classDir) {
     const exactPath = path.join(classDir, fileName);
     if (fs.existsSync(exactPath)) return exactPath;
+
+    const fallbackIndex = classRowOffsets[classKey] || 0;
+    const fallbackPath = classImageIndex[classKey]?.[fallbackIndex] || "";
+    if (fallbackPath) return fallbackPath;
   }
 
   const matches = [];
@@ -125,15 +167,23 @@ function findImagePath(row, classDirIndex) {
 function makeTableData() {
   const rows = readPredictionCsv(CSV_PATH);
   const classDirIndex = buildClassDirIndex(IMAGE_DIR);
+  const classImageIndex = buildClassImageIndex(classDirIndex);
+  const classRowOffsets = {};
 
-  return rows.map((row, index) => ({
-    no: row["No"] || String(index + 1),
-    kelas: row["Kelas Daun"] || "",
-    prediksi: row["Prediksi Kelas Daun"] || "",
-    confidence: row["Confidence Score"] || "",
-    imgPath: findImagePath(row, classDirIndex),
-    imgName: row["Nama File"] || "",
-  }));
+  return rows.map((row, index) => {
+    const classKey = normalizeKey(row["Kelas Daun"] || "");
+    const item = {
+      no: row["No"] || String(index + 1),
+      kelas: row["Kelas Daun"] || "",
+      prediksi: row["Prediksi Kelas Daun"] || "",
+      confidence: row["Confidence Score"] || "",
+      imgPath: findImagePath(row, classDirIndex, classImageIndex, classRowOffsets),
+      imgName: row["Nama File"] || "",
+    };
+
+    classRowOffsets[classKey] = (classRowOffsets[classKey] || 0) + 1;
+    return item;
+  });
 }
 
 const border = { style: BorderStyle.SINGLE, size: 4, color: "000000" };

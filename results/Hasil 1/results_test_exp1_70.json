@@ -1,0 +1,172 @@
+{
+  "experiment": "Eksperimen 1 — Sehat (BG + NoBG)",
+  "tag": "exp1",
+  "split_model": "70:30",
+  "eval_type": "TEST (independen)",
+  "test_dir": "C:\\Users\\dvsw1\\Documents\\Kuliah\\Kuliah\\Skripsi\\Code\\data\\test",
+  "num_classes": 16,
+  "n_test_images": 800,
+  "folders_used": {
+    "Daun Alpukat": [
+      "Daun Alpukat NoBG",
+      100
+    ],
+    "Daun Belimbing Wuluh": [
+      "Daun Belimbing Wuluh NoBG",
+      100
+    ],
+    "Daun Jambu biji": [
+      "Daun Jambu biji NoBG",
+      100
+    ],
+    "Daun Leci": [
+      "Daun Leci NoBG",
+      100
+    ],
+    "Daun Nangka": [
+      "Daun Nangka NoBG",
+      100
+    ],
+    "Daun Salam": [
+      "Daun Salam NoBG",
+      100
+    ],
+    "Daun Sirsak": [
+      "Daun Sirsak NoBG",
+      100
+    ],
+    "Daun Srikaya": [
+      "Daun Srikaya NoBG",
+      100
+    ]
+  },
+  "folders_skipped": {
+    "Daun Alpukat Rusak": 100,
+    "Daun Belimbing Wuluh Rusak": 100,
+    "Daun Jambu Biji Rusak": 100,
+    "Daun Leci Rusak": 100,
+    "Daun Mangga": 100,
+    "Daun Mangga Rusak": 100,
+    "Daun Nangka Rusak": 100,
+    "Daun Salam Rusak": 100,
+    "Daun Sirsak Rusak": 100,
+    "Daun Srikaya Rusak": 100
+  },
+  "validation_accuracy": 0.9995,
+  "validation_f1_weighted": 0.9995,
+  "test_accuracy": 0.9563,
+  "test_precision_weighted": 0.966,
+  "test_recall_weighted": 0.9563,
+  "test_f1_weighted": 0.9573,
+  "classification_report": {
+    "Daun Alpukat BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Alpukat NoBG": {
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1-score": 0.9950248756218906,
+      "support": 100.0
+    },
+    "Daun Belimbing Wuluh BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Belimbing Wuluh NoBG": {
+      "precision": 0.7575757575757576,
+      "recall": 1.0,
+      "f1-score": 0.8620689655172413,
+      "support": 100.0
+    },
+    "Daun Jambu biji BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Jambu biji NoBG": {
+      "precision": 1.0,
+      "recall": 0.83,
+      "f1-score": 0.907103825136612,
+      "support": 100.0
+    },
+    "Daun Leci BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Leci NoBG": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 100.0
+    },
+    "Daun Nangka BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Nangka NoBG": {
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1-score": 0.9949748743718593,
+      "support": 100.0
+    },
+    "Daun Salam BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Salam NoBG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 100.0
+    },
+    "Daun Sirsak BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Sirsak NoBG": {
+      "precision": 0.9803921568627451,
+      "recall": 1.0,
+      "f1-score": 0.9900990099009901,
+      "support": 100.0
+    },
+    "Daun Srikaya BG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Daun Srikaya NoBG": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 100.0
+    },
+    "accuracy": 0.95625,
+    "macro avg": {
+      "precision": 0.4830041827712183,
+      "recall": 0.478125,
+      "f1-score": 0.4786305912104064,
+      "support": 800.0
+    },
+    "weighted avg": {
+      "precision": 0.9660083655424365,
+      "recall": 0.95625,
+      "f1-score": 0.9572611824208127,
+      "support": 800.0
+    }
+  }
+}
